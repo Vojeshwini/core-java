@@ -61,15 +61,15 @@ public class Airline {
 
     public void airlineInfo(){
         System.out.println("************************************");
-        System.out.println("flightNumber:"+flightNumber);
-       System.out.println("airlineName:"+airlineName);
-       System.out.println("Source:"+source);
-       System.out.println("destination:"+destination);
-       System.out.println("ticketPrice:"+ticketPrice);
-       System.out.println("totalSeat:"+totalSeat);
-       System.out.println("availableSeat:"+availableSeats);
-       System.out.println("noOfPassenger:"+noOfPassager);
-       System.out.println("departureTime:"+departureTime);
+        System.out.println("flightNumber:"+this.flightNumber);
+       System.out.println("airlineName:"+this.airlineName);
+       System.out.println("Source:"+this.source);
+       System.out.println("destination:"+this.destination);
+       System.out.println("ticketPrice:"+this.ticketPrice);
+       System.out.println("totalSeat:"+this.totalSeat);
+       System.out.println("availableSeat:"+this.availableSeats);
+       System.out.println("noOfPassenger:"+this.noOfPassager);
+       System.out.println("departureTime:"+this.departureTime);
 
     }
 

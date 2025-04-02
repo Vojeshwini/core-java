@@ -65,16 +65,16 @@ class SolarSystem {
     }
 public void Info(){
         System.out.println("                                                              ");
-        System.out.println("planet1:"+planet1);
-    System.out.println("planet2:"+planet2);
-    System.out.println("planet3:"+planet3);
-    System.out.println("planet4:"+planet4);
-    System.out.println("planet5:"+planet5);
-    System.out.println("planet6:"+planet6);
-    System.out.println("planet7:"+planet7);
-    System.out.println("planet8:"+planet8);
-    System.out.println("distance:"+distFromSunToEarth);
-    System.out.println("biggestStar:"+biggestStar);
+        System.out.println("planet1:"+this.planet1);
+    System.out.println("planet2:"+this.planet2);
+    System.out.println("planet3:"+this.planet3);
+    System.out.println("planet4:"+this.planet4);
+    System.out.println("planet5:"+this.planet5);
+    System.out.println("planet6:"+this.planet6);
+    System.out.println("planet7:"+this.planet7);
+    System.out.println("planet8:"+this.planet8);
+    System.out.println("distance:"+this.distFromSunToEarth);
+    System.out.println("biggestStar:"+this.biggestStar);
 
 
 }
