@@ -103,7 +103,7 @@ class SolarSystemRunner{
         solar2.Info();
         solar3.Info();
         solar4.Info();
-        solar1.Info();
+        solar5.Info();
 
     }
 }
