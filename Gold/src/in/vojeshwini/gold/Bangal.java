@@ -15,6 +15,7 @@ public class Bangal {
     ){
 
         System.out.println("the size of bangle");
+        System.out.println("name of bangal:"+name);
         if(gold!=null){
             gold.carrat();
         }else{
