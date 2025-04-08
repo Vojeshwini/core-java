@@ -19,7 +19,6 @@ public class ElectronicsRunner {
         Electronics elect4 = new Electronics(productName, price, brand);
         Electronics elect5 = new Electronics(productName, price);
         Electronics elect6 = new Electronics(productName);
-
         elect1.info();
         elect2.info();
         elect3.info();
