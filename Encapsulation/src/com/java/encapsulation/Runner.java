@@ -6,6 +6,9 @@ import com.java.encapsulation.internal1.JetSpecs;
 import com.java.encapsulation.external1.FlightInfo;
 import com.java.encapsulation.internal2.OccupationInfo;
 import com.java.encapsulation.external2.Career;
+import com.java.encapsulation.internal3.GymInfo;
+import com.java.encapsulation.external3.FitnessCenter;
+
 
 
 
@@ -30,6 +33,12 @@ public class Runner {
         c.displayOccupation();
 
     }
+    //gym
+    GymInfo g = new GymInfo();
+        g.showGymDetails();
+
+    FitnessCenter fc = new FitnessCenter();
+        fc.displayGym();
 
 
 }
