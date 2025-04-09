@@ -3,8 +3,8 @@ package com.java.encapsulation.internal1;
 public class Jet {
     private String jetName = "Falcon";
     private String jetColor = "Grey";
-    private double speed = 900.5; // in km/h
-    private int capacity = 2; // number of people
+    private double speed = 900.5;
+    private int capacity = 2;
 
     public Jet() {
         System.out.println("Running the Jet");
