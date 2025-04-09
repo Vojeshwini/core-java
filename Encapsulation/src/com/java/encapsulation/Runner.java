@@ -10,6 +10,8 @@ import com.java.encapsulation.internal3.GymInfo;
 import com.java.encapsulation.external3.FitnessCenter;
 import com.java.encapsulation.internal4.GarageInfo;
 import com.java.encapsulation.external4.GarageService;
+import com.java.encapsulation.internal5.ApartmentInfo;
+import com.java.encapsulation.external5.ApartmentService;
 
 
 
@@ -47,5 +49,11 @@ GarageInfo garageInfo = new GarageInfo();
 
     GarageService garageService = new GarageService();
         garageService.showGarage();
+        //Apartment
+        ApartmentInfo ai = new ApartmentInfo();
+        ai.showApartmentDetails();
+
+    ApartmentService as = new ApartmentService();
+        as.displayApartment();
 
 }
