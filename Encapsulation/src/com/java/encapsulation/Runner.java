@@ -8,6 +8,8 @@ import com.java.encapsulation.internal2.OccupationInfo;
 import com.java.encapsulation.external2.Career;
 import com.java.encapsulation.internal3.GymInfo;
 import com.java.encapsulation.external3.FitnessCenter;
+import com.java.encapsulation.internal4.GarageInfo;
+import com.java.encapsulation.external4.GarageService;
 
 
 
@@ -39,6 +41,11 @@ public class Runner {
 
     FitnessCenter fc = new FitnessCenter();
         fc.displayGym();
+//garage
+GarageInfo garageInfo = new GarageInfo();
+        garageInfo.showGarageDetails();
 
+    GarageService garageService = new GarageService();
+        garageService.showGarage();
 
 }
