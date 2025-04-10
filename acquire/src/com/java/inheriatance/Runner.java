@@ -1,6 +1,7 @@
 package com.java.inheriatance;
 import com.java.inheriatance.external1.*;
 import com.java.inheriatance.external4.Actor;
+import com.java.inheriatance.external6.Cactus;
 import com.java.inheriatance.internal1.*;
 import com.java.inheriatance.internal2.*;
 import com.java.inheriatance.external2.*;
@@ -10,7 +11,8 @@ import com.java.inheriatance.internal4.Human;
 import com.java.inheriatance.internal4.Person;
 import com.java.inheriatance.internal5.*;
 import com.java.inheriatance.external5.*;
-
+import com.java.inheriatance.internal6.*;
+import com.java.inheriatance.external6.*;
 
 
 public class Runner {
@@ -36,6 +38,9 @@ public class Runner {
         Tool tool1=new Revolver();
         Tool tool2=new Weapon();
         System.out.println("--------------------------------------------------------------------------");
+        Thing cactus=new Thing();
+        Thing cactus1=new Plant();
+        Thing cactus2=new Cactus();
 
 
     }
