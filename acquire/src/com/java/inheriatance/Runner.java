@@ -1,9 +1,12 @@
 package com.java.inheriatance;
 import com.java.inheriatance.external1.*;
+import com.java.inheriatance.external10.Sneakers;
 import com.java.inheriatance.external4.Actor;
 import com.java.inheriatance.external6.Cactus;
 import com.java.inheriatance.external7.Thread;
 import com.java.inheriatance.internal1.*;
+import com.java.inheriatance.internal10.Accessory;
+import com.java.inheriatance.internal10.Shoe;
 import com.java.inheriatance.internal2.*;
 import com.java.inheriatance.external2.*;
 import com.java.inheriatance.internal3.*;
@@ -18,6 +21,12 @@ import com.java.inheriatance.internal7.*;
 import com.java.inheriatance.external7.*;
 import com.java.inheriatance.internal8.*;
 import com.java.inheriatance.external8.*;
+import com.java.inheriatance.internal9.*;
+import com.java.inheriatance.external9.*;
+import com.java.inheriatance.internal.*;
+import com.java.inheriatance.external.*;
+
+
 
 
 
@@ -56,5 +65,20 @@ public class Runner {
         Security secure=new Security();
         Security secure1=new Lock();
         System.out.println("--------------------------------------------------------------------");
+        Light light = new Light();
+        Light light2=new Led();
+        System.out.println("------------------------------------------------------------");
+        Accessory accessory=new Accessory();
+        Accessory accessory1=new Shoe();
+        Accessory accessory2=new Sneakers();
+        System.out.println("-------------------------------------------------------------------------");
+        Product product=new Product();
+        Product product1=new Furniture();
+        Product product2=new Sofa();
+        System.out.println("---------------------------------------------------------------------");
+
+
+
+
     }
 }
