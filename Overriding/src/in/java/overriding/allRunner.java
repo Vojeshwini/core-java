@@ -36,7 +36,7 @@ import in.java.overriding.towel.internal9.Turkey;
 import in.java.overriding.cake.internal13.*;
 import in.java.overriding.parachut.internal16.*;
 import in.java.overriding.bag.internal23.*;
-
+import in.java.overriding.beads.internal44.*;
 import in.java.overriding.Battery.internal21.*;
 import in.java.overriding.jeep.internal99.*;
 import in.java.overriding.bottle.internal24.*;
@@ -104,6 +104,7 @@ import in.java.overriding.guitar.internal89.*;
 import in.java.overriding.bracklet.internal90.*;
 import in.java.overriding.sward.internal91.*;
 import in.java.overriding.panipuri.internal92.*;
+import in.java.overriding.Clipboard.internal39.*;
 
 
 
@@ -1024,7 +1025,29 @@ public class allRunner {
         spicyPanipuri.addExtraSpice();
 
         System.out.println("-----------------------------------------------------------");
+
+        Beads beads = new Beads();
+        beads.decorate();
+
+        Beads beads1 = new ColorBeads();
+        beads1.decorate();
+
+        ColorBeads colorBeads = new ColorBeads();
+        colorBeads.decorate();
+        colorBeads.sortByColor();
+
         System.out.println("-----------------------------------------------------------");
+
+        Clipboard clipboard = new Clipboard();
+        clipboard.hold();
+
+        Clipboard clipboard1 = new DigitalClipboard();
+        clipboard1.hold();
+
+        DigitalClipboard digitalClipboard = new DigitalClipboard();
+        digitalClipboard.hold();
+        digitalClipboard.copyText();
+
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");
