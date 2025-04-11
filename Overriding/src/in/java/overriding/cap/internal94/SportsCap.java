@@ -1,4 +1,4 @@
-package in.java.overriding.cap.internal84;
+package in.java.overriding.cap.internal94;
 public class SportsCap extends Cap {
 
     @Override

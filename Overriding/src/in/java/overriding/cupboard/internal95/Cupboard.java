@@ -1,4 +1,4 @@
-package in.java.overriding.cupboard.internal52;
+package in.java.overriding.cupboard.internal95;
 
     public class Cupboard {
         public void open() {

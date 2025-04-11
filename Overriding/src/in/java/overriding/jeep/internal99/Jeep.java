@@ -1,4 +1,4 @@
-package in.java.overriding.jeep.internal22;
+package in.java.overriding.jeep.internal99;
 
 public class Jeep {
     public void model() {

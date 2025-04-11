@@ -1,4 +1,4 @@
-package in.java.overriding.chocolate.internal39;
+package in.java.overriding.chocolate.internal96;
 public class DarkChocolate extends Chocolate {
 
     @Override

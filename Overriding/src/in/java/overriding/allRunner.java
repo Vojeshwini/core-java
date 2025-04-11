@@ -38,12 +38,12 @@ import in.java.overriding.parachut.internal16.*;
 import in.java.overriding.bag.internal23.*;
 
 import in.java.overriding.Battery.internal21.*;
-import in.java.overriding.jeep.internal22.*;
+import in.java.overriding.jeep.internal99.*;
 import in.java.overriding.bottle.internal24.*;
 import in.java.overriding.sun.internal26.*;
 import in.java.overriding.earring.internal27.*;
 import in.java.overriding.bike.internal28.*;
-import in.java.overriding.bat.internal29.*;
+import in.java.overriding.bat.internal93.*;
 import in.java.overriding.tree.internal30.*;
 import in.java.overriding.bed.internal31.*;
 import in.java.overriding.paste.internal32.*;
@@ -53,11 +53,11 @@ import in.java.overriding.flower.internal35.*;
 import in.java.overriding.belt.internal36.*;
 import in.java.overriding.bangle.internal37.*;
 import in.java.overriding.perfume.internal38.*;
-import in.java.overriding.chocolate.internal39.*;
+import in.java.overriding.chocolate.internal96.*;
 import in.java.overriding.pant.internal40.*;
 import in.java.overriding.juice.internal41.*;
 import in.java.overriding.umbrella.internal43.*;
-import in.java.overriding.charger.internal44.*;
+import in.java.overriding.charger.internal97.*;
 import in.java.overriding.wire.internal45.*;
 import in.java.overriding.dosa.internal46.*;
 import in.java.overriding.mat.internal47.*;
@@ -65,17 +65,15 @@ import in.java.overriding.brush.internal49.*;
 import in.java.overriding.tissue.internal48.*;
 import in.java.overriding.photo.internal50.*;
 import in.java.overriding.gun.internal51.*;
-import in.java.overriding.cupboard.internal52.*;
-import in.java.overriding.money.internal53.*;
+import in.java.overriding.cupboard.internal95.*;
 import in.java.overriding.mirror.internal54.*;
 import in.java.overriding.hanger.internal55.*;
 import in.java.overriding.zip.internal56.*;
 import in.java.overriding.Tablet.internal57.*;
-import in.java.overriding.bucket.internal58.*;
 import in.java.overriding.toy.internal59.*;
 import in.java.overriding.stone.internal60.*;
 import in.java.overriding.spoon.internal61.*;
-import in.java.overriding.diamond.internal62.*;
+import in.java.overriding.diamond.internal98.*;
 import in.java.overriding.cup.internal63.*;
 import in.java.overriding.chips.internal64.*;
 import in.java.overriding.mic.internal65.*;
@@ -85,7 +83,7 @@ import in.java.overriding.needle.internal68.*;
 import in.java.overriding.scale.internal69.*;
 import in.java.overriding.drum.internal70.*;
 import in.java.overriding.stick.internal71.*;
-import in.java.overriding.file.internal72.*;
+import in.java.overriding.file.internal100.*;
 import in.java.overriding.table.internal73.*;
 import in.java.overriding.seat.internal74.*;
 import in.java.overriding.cement.internal75.*;
@@ -97,20 +95,15 @@ import in.java.overriding.usb.internal80.*;
 import in.java.overriding.straw.internal81.*;
 import in.java.overriding.pipe.internal82.*;
 import in.java.overriding.net.internal83.*;
-import in.java.overriding.cap.internal84.*;
+import in.java.overriding.cap.internal94.*;
 import in.java.overriding.cab.internal85.*;
 import in.java.overriding.helmet.internal86.*;
 import in.java.overriding.banner.internal87.*;
 import in.java.overriding.keyboard.internal88.*;
 import in.java.overriding.guitar.internal89.*;
 import in.java.overriding.bracklet.internal90.*;
-
-
-
-
-
-
-
+import in.java.overriding.sward.internal91.*;
+import in.java.overriding.panipuri.internal92.*;
 
 
 
@@ -1009,7 +1002,27 @@ public class allRunner {
         goldBraklet.wear();
         goldBraklet.shine();
         System.out.println("-----------------------------------------------------------");
+        Sward sward = new Sward();
+        sward.attack();
+
+        Sward sward1 = new SteelSward();
+        sward1.attack();
+
+        SteelSward steelSward = new SteelSward();
+        steelSward.attack();
+        steelSward.sharpen();
+
         System.out.println("-----------------------------------------------------------");
+        Panipuri panipuri = new Panipuri();
+        panipuri.serve();
+
+        Panipuri panipuri1 = new SpicyPanipuri();
+        panipuri1.serve();
+
+        SpicyPanipuri spicyPanipuri = new SpicyPanipuri();
+        spicyPanipuri.serve();
+        spicyPanipuri.addExtraSpice();
+
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");

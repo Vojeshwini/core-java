@@ -1,4 +1,4 @@
-package in.java.overriding.charger.internal44;
+package in.java.overriding.charger.internal97;
 
 
     public class FastCharger extends Charger {

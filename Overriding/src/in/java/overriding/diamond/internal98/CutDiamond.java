@@ -1,4 +1,4 @@
-package in.java.overriding.diamond.internal62;
+package in.java.overriding.diamond.internal98;
 public class CutDiamond extends Diamond {
 
     @Override
