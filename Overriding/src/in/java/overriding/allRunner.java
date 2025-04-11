@@ -90,20 +90,16 @@ import in.java.overriding.table.internal73.*;
 import in.java.overriding.seat.internal74.*;
 import in.java.overriding.cement.internal75.*;
 import in.java.overriding.pizza.internal76.*;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import in.java.overriding.tire.internal77.*;
+import in.java.overriding.blazer.internal78.*;
+import in.java.overriding.tiles.internal79.*;
+import in.java.overriding.usb.internal80.*;
+import in.java.overriding.straw.internal81.*;
+import in.java.overriding.pipe.internal82.*;
+import in.java.overriding.net.internal83.*;
+import in.java.overriding.cap.internal84.*;
+import in.java.overriding.cab.internal85.*;
+import in.java.overriding.helmet.internal86.*;
 
 
 
@@ -854,13 +850,113 @@ public class allRunner {
         cheesePizza.addCheese();
         System.out.println("-----------------------------------------------------------");
 
-        System.out.println("-----------------------------------------------------------");
+        Tire tire = new Tire();
+        tire.rotate();
+
+        Tire tire1 = new TubelessTire();
+        tire1.rotate();
+
+        TubelessTire tubelessTire = new TubelessTire();
+        tubelessTire.rotate();
+        tubelessTire.sealPuncture();
 
         System.out.println("-----------------------------------------------------------");
 
-        System.out.println("-----------------------------------------------------------");
+        Blazer blazer = new Blazer();
+        blazer.wear();
+
+        Blazer blazer1 = new FormalBlazer();
+        blazer1.wear();
+
+        FormalBlazer formalBlazer = new FormalBlazer();
+        formalBlazer.wear();
+        formalBlazer.matchWithTie();
 
         System.out.println("-----------------------------------------------------------");
+
+        Tiles tiles = new Tiles();
+        tiles.place();
+
+        Tiles tiles1 = new CeramicTiles();
+        tiles1.place();
+
+        CeramicTiles ceramicTiles = new CeramicTiles();
+        ceramicTiles.place();
+        ceramicTiles.polish();
+        System.out.println("-----------------------------------------------------------");
+        USB usb = new USB();
+        usb.connect();
+
+        USB usb1 = new USB3();
+        usb1.connect();
+
+        USB3 usb3 = new USB3();
+        usb3.connect();
+        usb3.fastTransfer();
+        System.out.println("-----------------------------------------------------------");
+        Straw straw = new Straw();
+        straw.use();
+
+        Straw straw1 = new PlasticStraw();
+        straw1.use();
+
+        PlasticStraw plasticStraw = new PlasticStraw();
+        plasticStraw.use();
+        plasticStraw.recycle();
+
+        System.out.println("-----------------------------------------------------------");
+
+        Pipe pipe = new Pipe();
+        pipe.carry();
+
+        Pipe pipe1 = new PVCpipe();
+        pipe1.carry();
+
+        PVCpipe pvcpipe = new PVCpipe();
+        pvcpipe.carry();
+        pvcpipe.bend();
+        System.out.println("-----------------------------------------------------------");
+        Net net = new Net();
+        net.trap();
+
+        Net net1 = new FishingNet();
+        net1.trap();
+
+        FishingNet fishingNet = new FishingNet();
+        fishingNet.trap();
+        fishingNet.throwNet();
+        System.out.println("-----------------------------------------------------------");
+
+        Helmet helmet = new Helmet();
+        helmet.protect();
+
+        Helmet helmet1 = new RacingHelmet();
+        helmet1.protect();
+
+        RacingHelmet racingHelmet = new RacingHelmet();
+        racingHelmet.protect();
+        racingHelmet.adjustVisor();
+        System.out.println("-----------------------------------------------------------");
+        Cab cab = new Cab();
+        cab.ride();
+
+        Cab cab1 = new OlaCab();
+        cab1.ride();
+
+        OlaCab ola = new OlaCab();
+        ola.ride();
+        ola.book();
+        System.out.println("-----------------------------------------------------------");
+
+        Cap cap = new Cap();
+        cap.wear();
+
+        Cap cap1 = new SportsCap();
+        cap1.wear();
+
+        SportsCap sportsCap = new SportsCap();
+        sportsCap.wear();
+        sportsCap.adjustStrap();
 
         System.out.println("-----------------------------------------------------------");
 
