@@ -100,6 +100,14 @@ import in.java.overriding.net.internal83.*;
 import in.java.overriding.cap.internal84.*;
 import in.java.overriding.cab.internal85.*;
 import in.java.overriding.helmet.internal86.*;
+import in.java.overriding.banner.internal87.*;
+import in.java.overriding.keyboard.internal88.*;
+import in.java.overriding.guitar.internal89.*;
+import in.java.overriding.bracklet.internal90.*;
+
+
+
+
 
 
 
@@ -960,9 +968,57 @@ public class allRunner {
 
         System.out.println("-----------------------------------------------------------");
 
+        Banner banner = new Banner();
+        banner.display();
+
+        Banner banner1 = new DigitalBanner();
+        banner1.display();
+
+        DigitalBanner digitalBanner = new DigitalBanner();
+        digitalBanner.display();
+        digitalBanner.animate();
         System.out.println("-----------------------------------------------------------");
+        Keyboard keyboard = new Keyboard();
+        keyboard.type();
+
+        Keyboard keyboard1 = new MechanicalKeyboard();
+        keyboard1.type();
+
+        MechanicalKeyboard mechanicalKeyboard = new MechanicalKeyboard();
+        mechanicalKeyboard.type();
+        mechanicalKeyboard.backlight();
 
         System.out.println("-----------------------------------------------------------");
+        Guitar guitar = new Guitar();
+        guitar.play();
+
+        Guitar guitar1 = new ElectricGuitar();
+        guitar1.play();
+
+        ElectricGuitar electricGuitar = new ElectricGuitar();
+        electricGuitar.play();
+        electricGuitar.plugIn();
+        System.out.println("-----------------------------------------------------------");
+        Braklet braklet = new Braklet();
+        braklet.wear();
+
+        Braklet braklet1 = new GoldBraklet();
+        braklet1.wear();
+
+        GoldBraklet goldBraklet = new GoldBraklet();
+        goldBraklet.wear();
+        goldBraklet.shine();
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+
 
     }
 }
