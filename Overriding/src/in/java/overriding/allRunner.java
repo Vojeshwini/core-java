@@ -1,5 +1,6 @@
 package in.java.overriding;
 
+import in.java.overriding.Bird.external1.Wings;
 import in.java.overriding.Bird.internal1.*;
 import in.java.overriding.Book.internal20.Book;
 import in.java.overriding.Book.internal20.Page;
@@ -235,6 +236,9 @@ public class allRunner {
         Feather feather = new Feather();
         feather.color();
         feather.category();
+        Wings wings=new Wings();
+        wings.hight(bird);
+        wings.hight(b1);
         System.out.println("-------------------------------------------------------------");
         Cloud cldy = new Cloud();
         cldy.cloudy();
@@ -499,6 +503,7 @@ public class allRunner {
         System.out.println("-----------------------------------------------------------");
         Wire wire = new Wire();
         wire.transmit();
+
 
         Wire wire1 = new CopperWire();
         wire1.transmit();
