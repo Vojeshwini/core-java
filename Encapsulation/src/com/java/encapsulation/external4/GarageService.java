@@ -1,6 +1,6 @@
 package com.java.encapsulation.external4;
 
-import com.java.encapsulation.internal4.Garage
+import com.java.encapsulation.internal4.Garage;
 public class GarageService {
     public void showGarage() {
         Garage garage = new Garage();
