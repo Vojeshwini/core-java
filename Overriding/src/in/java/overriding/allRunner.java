@@ -10,6 +10,7 @@ import in.java.overriding.Knife.internal11.Veggies;
 import in.java.overriding.Locket.internal7.Gold;
 import in.java.overriding.Locket.internal7.Locket;
 import in.java.overriding.animal.internal14.Animal;
+import in.java.overriding.animal.external14.*;
 import in.java.overriding.animal.internal14.Carnivor;
 import in.java.overriding.cake.internal13.Pastry;
 import in.java.overriding.clip.internal5.Clip;
@@ -236,9 +237,11 @@ public class allRunner {
         Feather feather = new Feather();
         feather.color();
         feather.category();
+        System.out.println("casting");
         Wings wings=new Wings();
         wings.hight(bird);
         wings.hight(b1);
+        wings.hight(feather);
         System.out.println("-------------------------------------------------------------");
         Cloud cldy = new Cloud();
         cldy.cloudy();
@@ -329,6 +332,11 @@ public class allRunner {
         Carnivor carnivor = new Carnivor();
         carnivor.domestic();
         carnivor.tiger();
+        Legs legs=new Legs();
+        System.out.println("type casting");
+        legs.herbivorous(animal);
+        legs.herbivorous(animal1);
+
         System.out.println("-----------------------------------------------------------");
         Mask mask1 = new Mask();
         mask1.mask();
