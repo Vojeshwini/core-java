@@ -3,17 +3,18 @@ import in.java.overriding.beads.internal44.*;
 
 
 public class Necklace {
-    public void greenPearl(Beads beads){
-        if(beads!=null){
+    public void greenPearl(Beads beads) {
+        if (beads != null) {
             beads.decorate();
-            if(beads instanceof ColorBeads){
-                ColorBeads col=(ColorBeads)beads;
+            if (beads instanceof ColorBeads) {
+                ColorBeads col = (ColorBeads) beads;
                 col.sortByColor();
-            }else{
+            } else {
                 System.out.println("beads id not color beads");
             }
-        }else{
+        } else {
 
-        System.out.println("null");
+            System.out.println("null");
+        }
     }
 }
