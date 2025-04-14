@@ -3,6 +3,8 @@ public class DigitalBanner extends Banner {
 
     @Override
     public void display() {
+
+
         System.out.println("running the display in DigitalBanner");
     }
 
