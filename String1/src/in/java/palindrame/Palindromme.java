@@ -2,7 +2,7 @@ package in.java.palindrame;
 
 
 public class Palindromme{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         String str = "malayalam";
         boolean isPalindrome = true;
         str = str.toLowerCase();
