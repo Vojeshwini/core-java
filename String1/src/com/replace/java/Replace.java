@@ -1,5 +1,5 @@
 package com.replace.java;
-
+//replace the space by %
 public class Replace {
     public static void main(String[] args){
 
