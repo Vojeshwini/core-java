@@ -10,7 +10,7 @@ public class HandBag {
                 schoolBag.capacity();
             }
             else{
-                System.err.println("no answer");
+                System.err.println("capacity is not schoolbag");
             }
         }else{
             System.err.println("bag is null");
