@@ -559,6 +559,376 @@ System.out.println("------------------------------------------------------------
             System.out.println("parrot1 and parrot3 isMatching? " + pr2);
             System.out.println("parrot2 and parrot3 isMatching? " + pr3);
             System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Bulb bulb = new Bulb();
+            bulb.setBrand("Philips");
+            bulb.setType("LED");
+            bulb.setWattage(9);
+            bulb.setPrice(150);
+            System.out.println(bulb);
+
+            System.out.println("Equals method");
+
+            Bulb bulb1 = new Bulb();
+            bulb1.setBrand("Syska");
+            bulb1.setType("LED");
+            bulb1.setWattage(12);
+            bulb1.setPrice(180);
+
+            Bulb bulb2 = new Bulb();
+            bulb2.setBrand("Syska");
+            bulb2.setType("LED");
+            bulb2.setWattage(12);
+            bulb2.setPrice(180);
+
+            Bulb bulb3 = new Bulb();
+            bulb3.setBrand("Wipro");
+            bulb3.setType("CFL");
+            bulb3.setWattage(15);
+            bulb3.setPrice(120);
+
+            boolean bu1 = bulb1.equals(bulb2);
+            boolean bu2 = bulb1.equals(bulb3);
+            boolean bu3 = bulb2.equals(bulb3);
+            System.out.println("bulb1 and bulb2 isMatching? " + bu1);
+            System.out.println("bulb1 and bulb3 isMatching? " + bu2);
+            System.out.println("bulb2 and bulb3 isMatching? " + bu3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            HairBand hairBand = new HairBand();
+            hairBand.setBrand("Zara");
+            hairBand.setColor("Black");
+            hairBand.setMaterial("Velvet");
+            hairBand.setPrice(99.0);
+            System.out.println(hairBand);
+
+            System.out.println("Equals method");
+
+            HairBand hairBand1 = new HairBand();
+            hairBand1.setBrand("H&M");
+            hairBand1.setColor("Pink");
+            hairBand1.setMaterial("Satin");
+            hairBand1.setPrice(120.0);
+
+            HairBand hairBand2 = new HairBand();
+            hairBand2.setBrand("H&M");
+            hairBand2.setColor("Pink");
+            hairBand2.setMaterial("Satin");
+            hairBand2.setPrice(120.0);
+
+            HairBand hairBand3 = new HairBand();
+            hairBand3.setBrand("Forever21");
+            hairBand3.setColor("Red");
+            hairBand3.setMaterial("Cotton");
+            hairBand3.setPrice(80.0);
+
+            boolean h1 = hairBand1.equals(hairBand2);
+            boolean h2 = hairBand1.equals(hairBand3);
+            boolean h3 = hairBand2.equals(hairBand3);
+            System.out.println("hairBand1 and hairBand2 isMatching? " + h1);
+            System.out.println("hairBand1 and hairBand3 isMatching? " + h2);
+            System.out.println("hairBand2 and hairBand3 isMatching? " + h3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Lamp lamp = new Lamp();
+            lamp.setBrand("Philips");
+            lamp.setType("Table Lamp");
+            lamp.setColor("White");
+            lamp.setPrice(850.0);
+            System.out.println(lamp);
+
+            System.out.println("Equals method");
+
+            Lamp lamp1 = new Lamp();
+            lamp1.setBrand("Wipro");
+            lamp1.setType("Wall Lamp");
+            lamp1.setColor("Yellow");
+            lamp1.setPrice(1200.0);
+
+            Lamp lamp2 = new Lamp();
+            lamp2.setBrand("Wipro");
+            lamp2.setType("Wall Lamp");
+            lamp2.setColor("Yellow");
+            lamp2.setPrice(1200.0);
+
+            Lamp lamp3 = new Lamp();
+            lamp3.setBrand("Syska");
+            lamp3.setType("Ceiling Lamp");
+            lamp3.setColor("Warm White");
+            lamp3.setPrice(1500.0);
+
+            boolean l1 = lamp1.equals(lamp2);
+            boolean l2 = lamp1.equals(lamp3);
+            boolean l3 = lamp2.equals(lamp3);
+            System.out.println("lamp1 and lamp2 isMatching? " + l1);
+            System.out.println("lamp1 and lamp3 isMatching? " + l2);
+            System.out.println("lamp2 and lamp3 isMatching? " + l3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Xerox xerox = new Xerox();
+            xerox.setBrand("Canon");
+            xerox.setModel("C-500");
+            xerox.setColorType("Color");
+            xerox.setPrice(25000.0);
+            System.out.println(xerox);
+
+            System.out.println("Equals method");
+
+            Xerox xerox1 = new Xerox();
+            xerox1.setBrand("HP");
+            xerox1.setModel("HP-Laser");
+            xerox1.setColorType("B&W");
+            xerox1.setPrice(20000.0);
+
+            Xerox xerox2 = new Xerox();
+            xerox2.setBrand("HP");
+            xerox2.setModel("HP-Laser");
+            xerox2.setColorType("B&W");
+            xerox2.setPrice(20000.0);
+
+            Xerox xerox3 = new Xerox();
+            xerox3.setBrand("Epson");
+            xerox3.setModel("EcoTank");
+            xerox3.setColorType("Color");
+            xerox3.setPrice(30000.0);
+
+            boolean x1 = xerox1.equals(xerox2);
+            boolean x2 = xerox1.equals(xerox3);
+            boolean x3 = xerox2.equals(xerox3);
+            System.out.println("xerox1 and xerox2 isMatching? " + x1);
+            System.out.println("xerox1 and xerox3 isMatching? " + x2);
+            System.out.println("xerox2 and xerox3 isMatching? " + x3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            KeyChain keyChain = new KeyChain();
+            keyChain.setMaker("WildHorn");
+            keyChain.setBuildMaterial("Leather");
+            keyChain.setDesign("Rectangle");
+            keyChain.setCost(150.0);
+            System.out.println(keyChain);
+
+            System.out.println("Equals method");
+
+            KeyChain keyChain1 = new KeyChain();
+            keyChain1.setMaker("Skyline");
+            keyChain1.setBuildMaterial("Metal");
+            keyChain1.setDesign("Round");
+            keyChain1.setCost(100.0);
+
+            KeyChain keyChain2 = new KeyChain();
+            keyChain2.setMaker("Skyline");
+            keyChain2.setBuildMaterial("Metal");
+            keyChain2.setDesign("Round");
+            keyChain2.setCost(100.0);
+
+            KeyChain keyChain3 = new KeyChain();
+            keyChain3.setMaker("Fastrack");
+            keyChain3.setBuildMaterial("Plastic");
+            keyChain3.setDesign("Square");
+            keyChain3.setCost(80.0);
+
+            boolean ke1 = keyChain1.equals(keyChain2);
+            boolean ke2 = keyChain1.equals(keyChain3);
+            boolean ke3 = keyChain2.equals(keyChain3);
+            System.out.println("keyChain1 and keyChain2 isMatching? " + ke1);
+            System.out.println("keyChain1 and keyChain3 isMatching? " + ke2);
+            System.out.println("keyChain2 and keyChain3 isMatching? " + ke3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Kite kite = new Kite();
+            kite.setBrand("FlyHigh");
+            kite.setSize("Large");
+            kite.setPattern("Dragon");
+            kite.setWeight(0.25);
+            System.out.println(kite);
+
+            System.out.println("Equals method");
+
+            Kite kite1 = new Kite();
+            kite1.setBrand("SkyRider");
+            kite1.setSize("Medium");
+            kite1.setPattern("Star");
+            kite1.setWeight(0.20);
+
+            Kite kite2 = new Kite();
+            kite2.setBrand("SkyRider");
+            kite2.setSize("Medium");
+            kite2.setPattern("Star");
+            kite2.setWeight(0.20);
+
+            Kite kite3 = new Kite();
+            kite3.setBrand("Zoomer");
+            kite3.setSize("Small");
+            kite3.setPattern("Plain");
+            kite3.setWeight(0.15);
+
+            boolean ki1 = kite1.equals(kite2);
+            boolean ki2 = kite1.equals(kite3);
+            boolean ki3 = kite2.equals(kite3);
+            System.out.println("kite1 and kite2 isMatching? " + ki1);
+            System.out.println("kite1 and kite3 isMatching? " + ki2);
+            System.out.println("kite2 and kite3 isMatching? " + ki3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Crown crown = new Crown();
+            crown.setMaterial("Gold");
+            crown.setStyle("Royal");
+            crown.setGemstone("Ruby");
+            crown.setWeight(0.5);
+            System.out.println(crown);
+
+            System.out.println("Equals method");
+
+            Crown crown1 = new Crown();
+            crown1.setMaterial("Silver");
+            crown1.setStyle("Vintage");
+            crown1.setGemstone("Diamond");
+            crown1.setWeight(0.4);
+
+            Crown crown2 = new Crown();
+            crown2.setMaterial("Silver");
+            crown2.setStyle("Vintage");
+            crown2.setGemstone("Diamond");
+            crown2.setWeight(0.4);
+
+            Crown crown3 = new Crown();
+            crown3.setMaterial("Gold");
+            crown3.setStyle("Modern");
+            crown3.setGemstone("Emerald");
+            crown3.setWeight(0.6);
+
+            boolean cr1 = crown1.equals(crown2);
+            boolean cr2 = crown1.equals(crown3);
+            boolean cr3 = crown2.equals(crown3);
+            System.out.println("crown1 and crown2 isMatching? " + cr1);
+            System.out.println("crown1 and crown3 isMatching? " + cr2);
+            System.out.println("crown2 and crown3 isMatching? " + cr3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Lock lock = new Lock();
+            lock.setMaterial("Steel");
+            lock.setMechanism("Combination");
+            lock.setSecurityLevel("High");
+            lock.setPrice(150.0);
+            System.out.println(lock);
+
+            System.out.println("Equals method");
+
+            Lock lock1 = new Lock();
+            lock1.setMaterial("Brass");
+            lock1.setMechanism("Key");
+            lock1.setSecurityLevel("Medium");
+            lock1.setPrice(80.0);
+
+            Lock lock2 = new Lock();
+            lock2.setMaterial("Brass");
+            lock2.setMechanism("Key");
+            lock2.setSecurityLevel("Medium");
+            lock2.setPrice(80.0);
+
+            Lock lock3 = new Lock();
+            lock3.setMaterial("Aluminum");
+            lock3.setMechanism("Keyless");
+            lock3.setSecurityLevel("Low");
+            lock3.setPrice(40.0);
+
+            boolean lo1 = lock1.equals(lock2);
+            boolean lo2 = lock1.equals(lock3);
+            boolean lo3 = lock2.equals(lock3);
+            System.out.println("lock1 and lock2 isMatching? " + lo1);
+            System.out.println("lock1 and lock3 isMatching? " + lo2);
+            System.out.println("lock2 and lock3 isMatching? " + lo3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Jacket jacket = new Jacket();
+            jacket.setFabric("Leather");
+            jacket.setColor("Black");
+            jacket.setSize("Medium");
+            jacket.setPrice(2500.0);
+            System.out.println(jacket);
+
+            System.out.println("Equals method");
+
+            Jacket jacket1 = new Jacket();
+            jacket1.setFabric("Cotton");
+            jacket1.setColor("Blue");
+            jacket1.setSize("Large");
+            jacket1.setPrice(1500.0);
+
+            Jacket jacket2 = new Jacket();
+            jacket2.setFabric("Cotton");
+            jacket2.setColor("Blue");
+            jacket2.setSize("Large");
+            jacket2.setPrice(1500.0);
+
+            Jacket jacket3 = new Jacket();
+            jacket3.setFabric("Leather");
+            jacket3.setColor("Brown");
+            jacket3.setSize("Medium");
+            jacket3.setPrice(2000.0);
+
+            boolean ja1 = jacket1.equals(jacket2);
+            boolean ja2 = jacket1.equals(jacket3);
+            boolean ja3 = jacket2.equals(jacket3);
+            System.out.println("jacket1 and jacket2 isMatching? " + ja1);
+            System.out.println("jacket1 and jacket3 isMatching? " + ja2);
+            System.out.println("jacket2 and jacket3 isMatching? " + ja3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            IceCream iceCream = new IceCream();
+            iceCream.setFlavor("Chocolate");
+            iceCream.setSize("Medium");
+            iceCream.setVegan(false);
+            iceCream.setPrice(150.0);
+            System.out.println(iceCream);
+
+            System.out.println("Equals method");
+
+            IceCream iceCream1 = new IceCream();
+            iceCream1.setFlavor("Vanilla");
+            iceCream1.setSize("Small");
+            iceCream1.setVegan(true);
+            iceCream1.setPrice(120.0);
+
+            IceCream iceCream2 = new IceCream();
+            iceCream2.setFlavor("Vanilla");
+            iceCream2.setSize("Small");
+            iceCream2.setVegan(true);
+            iceCream2.setPrice(120.0);
+
+            IceCream iceCream3 = new IceCream();
+            iceCream3.setFlavor("Chocolate");
+            iceCream3.setSize("Large");
+            iceCream3.setVegan(false);
+            iceCream3.setPrice(180.0);
+
+            boolean ic1 = iceCream1.equals(iceCream2);
+            boolean ic2 = iceCream1.equals(iceCream3);
+            boolean ic3 = iceCream2.equals(iceCream3);
+            System.out.println("iceCream1 and iceCream2 isMatching? " + ic1);
+            System.out.println("iceCream1 and iceCream3 isMatching? " + ic2);
+            System.out.println("iceCream2 and iceCream3 isMatching? " + ic3);
+            System.out.println("------------------------------------------------------------------------");
 
 
     }
