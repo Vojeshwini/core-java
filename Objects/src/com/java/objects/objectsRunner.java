@@ -446,6 +446,119 @@ System.out.println("------------------------------------------------------------
         System.out.println("toothbrush1 and toothbrush3 isMatching? " + t2);
         System.out.println("toothbrush2 and toothbrush3 isMatching? " + t3);
         System.out.println("------------------------------------------------------------------------");
+        System.out.println("**********************************************************************");
+        System.out.println("-----------------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        CupBoard cupBoard=new CupBoard();
+        cupBoard.setBrand("godrej");
+        cupBoard.setType("Single Door");
+        cupBoard.setColor("Maroon");
+        cupBoard.setPrice(12000);
+        System.out.println(cupBoard);
+        System.out.println("Equals method");
+
+        CupBoard cupBoard1=new CupBoard();
+        cupBoard1.setBrand("Caspian");
+        cupBoard1.setType("Single door");
+        cupBoard1.setColor("Army green");
+        cupBoard1.setPrice(16000);
+
+        CupBoard cupBoard2=new CupBoard();
+        cupBoard2.setBrand("Caspian");
+        cupBoard2.setType("Single door");
+        cupBoard2.setColor("Army green");
+        cupBoard2.setPrice(16000);
+
+        CupBoard cupBoard3=new CupBoard();
+        cupBoard3.setBrand("Godrej");
+        cupBoard3.setType("Wooden");
+        cupBoard3.setColor("Wood");
+        cupBoard3.setPrice(17000);
+
+        boolean cup1=cupBoard1.equals(cupBoard2);
+        boolean cup2=cupBoard1.equals(cupBoard3);
+        boolean cup3=cupBoard2.equals(cupBoard3);
+        System.out.println("cupboard1 and cupboard2 isMatching? " + cup1);
+        System.out.println("cupboard1 and cupboard3 isMatching? " + cup2);
+        System.out.println("cupboard2 and cupboard3 isMatching? " + cup3);
+            System.out.println("-----------------------------------------------------------");
+
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Pen pen = new Pen();
+            pen.setBrand("Reynolds");
+            pen.setColor("Blue");
+            pen.setType("Gel");
+            pen.setPrice(10);
+            System.out.println(pen);
+
+            System.out.println("Equals method");
+
+            Pen pen1 = new Pen();
+            pen1.setBrand("Parker");
+            pen1.setColor("Black");
+            pen1.setType("Ball");
+            pen1.setPrice(150);
+
+            Pen pen2 = new Pen();
+            pen2.setBrand("Parker");
+            pen2.setColor("Black");
+            pen2.setType("Ball");
+            pen2.setPrice(150);
+
+            Pen pen3 = new Pen();
+            pen3.setBrand("Cello");
+            pen3.setColor("Red");
+            pen3.setType("Gel");
+            pen3.setPrice(15);
+
+            boolean pe1 = pen1.equals(pen2);
+            boolean pe2 = pen1.equals(pen3);
+            boolean pe3 = pen2.equals(pen3);
+            System.out.println("pen1 and pen2 isMatching? " + pe1);
+            System.out.println("pen1 and pen3 isMatching? " + pe2);
+            System.out.println("pen2 and pen3 isMatching? " + pe3);
+            System.out.println("------------------------------------------------------------------------");
+            System.out.println("using setter");
+            System.out.println("toString");
+
+            Parrot parrot = new Parrot();
+            parrot.setSpecies("Macaw");
+            parrot.setColor("Blue and Yellow");
+            parrot.setAge(3);
+            parrot.setOrigin("Brazil");
+            System.out.println(parrot);
+
+            System.out.println("Equals method");
+
+            Parrot parrot1 = new Parrot();
+            parrot1.setSpecies("African Grey");
+            parrot1.setColor("Grey");
+            parrot1.setAge(4);
+            parrot1.setOrigin("Africa");
+
+            Parrot parrot2 = new Parrot();
+            parrot2.setSpecies("African Grey");
+            parrot2.setColor("Grey");
+            parrot2.setAge(4);
+            parrot2.setOrigin("Africa");
+
+            Parrot parrot3 = new Parrot();
+            parrot3.setSpecies("Cockatoo");
+            parrot3.setColor("White");
+            parrot3.setAge(5);
+            parrot3.setOrigin("Australia");
+
+            boolean pr1 = parrot1.equals(parrot2);
+            boolean pr2 = parrot1.equals(parrot3);
+            boolean pr3 = parrot2.equals(parrot3);
+            System.out.println("parrot1 and parrot2 isMatching? " + pr1);
+            System.out.println("parrot1 and parrot3 isMatching? " + pr2);
+            System.out.println("parrot2 and parrot3 isMatching? " + pr3);
+            System.out.println("------------------------------------------------------------------------");
 
 
     }
