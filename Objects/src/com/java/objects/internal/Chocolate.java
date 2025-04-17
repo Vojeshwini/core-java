@@ -27,6 +27,7 @@ public Chocolate(String brand,String name,int price,String flavour){
 }
     @Override
             public String toString(){
+    System.out.println("Chocolate");
         return "Brand="+brand+ ",Name="+name+ ",Price="+price+ ",flavour="+flavour;
 }
 
