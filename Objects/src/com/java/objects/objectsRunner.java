@@ -344,6 +344,108 @@ System.out.println("------------------------------------------------------------
         System.out.println("parachut1 and parachut3 isMatching? " + pa2);
         System.out.println("parachut2 and parachut3 isMatching? " + pa3);
         System.out.println("------------------------------------------------------------------------");
+        System.out.println("to String");
+        Jug jug = new Jug("Glass", "Transparent", 5, 250.0);
+        System.out.println(jug);
+
+        System.out.println("equals");
+        Jug jug1 = new Jug("Glass", "Transparent", 5, 250.0);
+        Jug jug2 = new Jug("Glass", "Transparent", 5, 250.0);
+        Jug jug3 = new Jug("Plastic", "Blue", 3, 150.0);
+
+        boolean ju1 = jug1.equals(jug2);
+        boolean ju2 = jug1.equals(jug3);
+        boolean ju3 = jug2.equals(jug3);
+
+        System.out.println("jug1 and jug2 isMatching? " + ju1);
+        System.out.println("jug1 and jug3 isMatching? " + ju2);
+        System.out.println("jug2 and jug3 isMatching? " + ju3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("to String");
+        Nest nest = new Nest("Twigs", "Medium", 3, 150.0);
+        System.out.println(nest);
+
+        System.out.println("equals");
+        Nest nest1 = new Nest("Twigs", "Medium", 3, 150.0);
+        Nest nest2 = new Nest("Twigs", "Medium", 3, 150.0);
+        Nest nest3 = new Nest("Grass", "Large", 4, 200.0);
+
+        boolean n1 = nest1.equals(nest2);
+        boolean n2 = nest1.equals(nest3);
+        boolean n3 = nest2.equals(nest3);
+
+        System.out.println("nest1 and nest2 isMatching? " + n1);
+        System.out.println("nest1 and nest3 isMatching? " + n2);
+        System.out.println("nest2 and nest3 isMatching? " + n3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("to String");
+        Router router = new Router("TP-Link", "Archer C6", "Black", 2499.0);
+        System.out.println(router);
+
+        System.out.println("equals");
+        Router router1 = new Router("TP-Link", "Archer C6", "Black", 2499.0);
+        Router router2 = new Router("TP-Link", "Archer C6", "Black", 2499.0);
+        Router router3 = new Router("Netgear", "R6120", "White", 2999.0);
+
+        boolean r1 = router1.equals(router2);
+        boolean r2 = router1.equals(router3);
+        boolean r3 = router2.equals(router3);
+
+        System.out.println("router1 and router2 isMatching? " + r1);
+        System.out.println("router1 and router3 isMatching? " + r2);
+        System.out.println("router2 and router3 isMatching? " + r3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("to String");
+        Umbrella umbrella = new Umbrella("Rein", "Blue", "Nylon", 350.0);
+        System.out.println(umbrella);
+
+        System.out.println("equals");
+        Umbrella umbrella1 = new Umbrella("Rein", "Blue", "Nylon", 350.0);
+        Umbrella umbrella2 = new Umbrella("Rein", "Blue", "Nylon", 350.0);
+        Umbrella umbrella3 = new Umbrella("Wildcraft", "Red", "Polyester", 450.0);
+
+        boolean u1 = umbrella1.equals(umbrella2);
+        boolean u2 = umbrella1.equals(umbrella3);
+        boolean u3 = umbrella2.equals(umbrella3);
+
+        System.out.println("umbrella1 and umbrella2 isMatching? " + u1);
+        System.out.println("umbrella1 and umbrella3 isMatching? " + u2);
+        System.out.println("umbrella2 and umbrella3 isMatching? " + u3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("to String");
+        Yogut yogut = new Yogut("Strawberry", "Amul", 200, 50.0);
+        System.out.println(yogut);
+
+        System.out.println("equals");
+        Yogut yogut1 = new Yogut("Strawberry", "Amul", 200, 50.0);
+        Yogut yogut2 = new Yogut("Strawberry", "Amul", 200, 50.0);
+        Yogut yogut3 = new Yogut("Vanilla", "Mother Dairy", 150, 45.0);
+
+        boolean y1 = yogut1.equals(yogut2);
+        boolean y2 = yogut1.equals(yogut3);
+        boolean y3 = yogut2.equals(yogut3);
+
+        System.out.println("yogut1 and yogut2 isMatching? " + y1);
+        System.out.println("yogut1 and yogut3 isMatching? " + y2);
+        System.out.println("yogut2 and yogut3 isMatching? " + y3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("to String");
+        ToothBrush toothbrush = new ToothBrush("Oral-B", "White", "Electric", 799.0);
+        System.out.println(toothbrush);
+
+        System.out.println("equals");
+        ToothBrush toothbrush1 = new ToothBrush("Oral-B", "White", "Electric", 799.0);
+        ToothBrush toothbrush2 = new ToothBrush("Oral-B", "White", "Electric", 799.0);
+        ToothBrush toothbrush3 = new ToothBrush("Colgate", "Blue", "Manual", 150.0);
+
+        boolean t1 = toothbrush1.equals(toothbrush2);
+        boolean t2 = toothbrush1.equals(toothbrush3);
+        boolean t3 = toothbrush2.equals(toothbrush3);
+
+        System.out.println("toothbrush1 and toothbrush2 isMatching? " + t1);
+        System.out.println("toothbrush1 and toothbrush3 isMatching? " + t2);
+        System.out.println("toothbrush2 and toothbrush3 isMatching? " + t3);
+        System.out.println("------------------------------------------------------------------------");
 
 
     }
