@@ -120,10 +120,74 @@ System.out.println("------------------------------------------------------------
         System.out.println("shampoo1 and shampoo3 isMatching? " + s2);
         System.out.println("shampoo2 and shampoo3 isMatching? " + s3);
         System.out.println("-------------------------------------------------------------------");
+        System.out.println("to String KeyBoard");
+        KeyBoard keyboard = new KeyBoard("Logitech", "Mechanical", "Black", 2500);
+        System.out.println(keyboard);
 
+        System.out.println("equals method for KeyBoard");
+        KeyBoard keyboard1 = new KeyBoard("Logitech", "Mechanical", "Black", 2500);
+        KeyBoard keyboard2 = new KeyBoard("Logitech", "Mechanical", "Black", 2500);
+        KeyBoard keyboard3 = new KeyBoard("HP", "Membrane", "White", 1500);
 
+        boolean k1 = keyboard1.equals(keyboard2);
+        boolean k2 = keyboard1.equals(keyboard3);
+        boolean k3 = keyboard2.equals(keyboard3);
 
+        System.out.println("keyboard1 and keyboard2 isMatching? " + k1);
+        System.out.println("keyboard1 and keyboard3 isMatching? " + k2);
+        System.out.println("keyboard2 and keyboard3 isMatching? " + k3);
+        System.out.println("-------------------------------------------------------------------------------------------");
+        System.out.println("to String Juice");
+        Juice juice = new Juice("Real", "Mango", 1000, 120.0);
+        System.out.println(juice);
 
+        System.out.println("equals method for Juice");
+        Juice juice1 = new Juice("Real", "Mango", 1000, 120.0);
+        Juice juice2 = new Juice("Real", "Mango", 1000, 120.0);
+        Juice juice3 = new Juice("Tropicana", "Orange", 1000, 140.0);
+
+        boolean j1 = juice1.equals(juice2);
+        boolean j2 = juice1.equals(juice3);
+        boolean j3 = juice2.equals(juice3);
+
+        System.out.println("juice1 and juice2 isMatching? " + j1);
+        System.out.println("juice1 and juice3 isMatching? " + j2);
+        System.out.println("juice2 and juice3 isMatching? " + j3);
+        System.out.println("-------------------------------------------");
+        System.out.println("to String Chips");
+        Chips chips = new Chips("Lays", "Magic Masala", 100, 20.0);
+        System.out.println(chips);
+
+        System.out.println("equals method for Chips");
+        Chips chips1 = new Chips("Lays", "Magic Masala", 100, 20.0);
+        Chips chips2 = new Chips("Lays", "Magic Masala", 100, 20.0);
+        Chips chips3 = new Chips("Uncle Chips", "Plain Salted", 100, 18.0);
+
+        boolean ch1 = chips1.equals(chips2);
+        boolean ch2 = chips1.equals(chips3);
+        boolean ch3 = chips2.equals(chips3);
+
+        System.out.println("chips1 and chips2 isMatching? " + ch1);
+        System.out.println("chips1 and chips3 isMatching? " + ch2);
+        System.out.println("chips2 and chips3 isMatching? " + ch3);
+        System.out.println("---------------------------------------------------------------------");
+        System.out.println("to String Salads");
+        Salads salad = new Salads("Fruit", "Apple, Banana, Grapes", 200, 90.0);
+        System.out.println(salad);
+
+        System.out.println("equals method for Salads");
+        Salads salad1 = new Salads("Fruit", "Apple, Banana, Grapes", 200, 90.0);
+        Salads salad2 = new Salads("Fruit", "Apple, Banana, Grapes", 200, 90.0);
+        Salads salad3 = new Salads("Veg", "Cucumber, Tomato, Lettuce", 250, 80.0);
+
+        boolean sa1 = salad1.equals(salad2);
+        boolean sa2 = salad1.equals(salad3);
+        boolean sa3 = salad2.equals(salad3);
+
+        System.out.println("salad1 and salad2 isMatching? " + sa1);
+        System.out.println("salad1 and salad3 isMatching? " + sa2);
+        System.out.println("salad2 and salad3 isMatching? " + sa3);
+        System.out.println("------------------------------------------------------");
 
 
 
