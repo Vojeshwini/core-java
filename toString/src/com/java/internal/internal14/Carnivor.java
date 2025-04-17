@@ -1,4 +1,4 @@
-package in.java.overriding.animal.internal14;
+package com.java.internal.internal14;
 
 public class Carnivor extends Animal{
     public Carnivor(){

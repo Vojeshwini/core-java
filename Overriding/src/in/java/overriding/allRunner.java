@@ -12,9 +12,11 @@ import in.java.overriding.Locket.internal7.Locket;
 import in.java.overriding.animal.internal14.Animal;
 import in.java.overriding.animal.external14.*;
 import in.java.overriding.animal.internal14.Carnivor;
+import in.java.overriding.bracklet.external90.Fashion;
 import in.java.overriding.cake.internal13.Pastry;
 import in.java.overriding.clip.internal5.Clip;
 import in.java.overriding.clip.internal5.Plastic;
+import in.java.overriding.door.external34.Entrance;
 import in.java.overriding.earpod.internal3.*;
 import in.java.overriding.halwa.internal12.Halwa;
 import in.java.overriding.halwa.internal12.PineApple;
@@ -58,6 +60,7 @@ import in.java.overriding.perfume.internal38.*;
 import in.java.overriding.chocolate.internal96.*;
 import in.java.overriding.pant.internal40.*;
 import in.java.overriding.juice.internal41.*;
+import in.java.overriding.umbrella.external43.UmbrellaTester;
 import in.java.overriding.umbrella.internal43.*;
 import in.java.overriding.charger.internal97.*;
 import in.java.overriding.wire.internal45.*;
@@ -76,6 +79,8 @@ import in.java.overriding.toy.internal59.*;
 import in.java.overriding.stone.internal60.*;
 import in.java.overriding.spoon.internal61.*;
 import in.java.overriding.diamond.internal98.*;
+import in.java.overriding.halwa.external12.*;
+
 import in.java.overriding.cup.internal63.*;
 import in.java.overriding.chips.internal64.*;
 import in.java.overriding.mic.internal65.*;
@@ -89,9 +94,11 @@ import in.java.overriding.file.internal100.*;
 import in.java.overriding.table.internal73.*;
 import in.java.overriding.seat.internal74.*;
 import in.java.overriding.cement.internal75.*;
+import in.java.overriding.bag.external23.*;
 import in.java.overriding.pizza.internal76.*;
 import in.java.overriding.tire.internal77.*;
 import in.java.overriding.blazer.internal78.*;
+import in.java.overriding.flower.external35.*;
 import in.java.overriding.tiles.internal79.*;
 import in.java.overriding.usb.internal80.*;
 import in.java.overriding.straw.internal81.*;
@@ -107,7 +114,97 @@ import in.java.overriding.bracklet.internal90.*;
 import in.java.overriding.sward.internal91.*;
 import in.java.overriding.panipuri.internal92.*;
 import in.java.overriding.Clipboard.internal39.*;
-
+import in.java.overriding.bike.external28.*;
+import in.java.overriding.animal.external14.*;
+import in.java.overriding.bag.external23.*;
+import in.java.overriding.bangle.external37.*;
+import in.java.overriding.bat.external93.*;
+import in.java.overriding.Battery.external21.*;
+import in.java.overriding.beads.external44.*;
+import in.java.overriding.bed.external31.*;
+import in.java.overriding.Bird.external1.*;
+import in.java.overriding.blazer.external78.*;
+import in.java.overriding.Book.external20.*;
+import in.java.overriding.bottle.external24.*;
+import in.java.overriding.brush.external49.*;
+import in.java.overriding.bucket.external58.*;
+import in.java.overriding.bulb.external33.*;
+import in.java.overriding.cab.external85.*;
+import in.java.overriding.cake.external13.*;
+import in.java.overriding.camera.external67.*;
+import in.java.overriding.cap.external94.*;
+import in.java.overriding.cement.external75.*;
+import in.java.overriding.charger.external97.*;
+import in.java.overriding.chips.external64.*;
+import in.java.overriding.chocolate.external96.*;
+import in.java.overriding.clip.external5.*;
+import in.java.overriding.Clipboard.external39.*;
+import in.java.overriding.Cloud.external2.*;
+import in.java.overriding.cup.external63.*;
+import in.java.overriding.cupboard.external95.*;
+import in.java.overriding.diamond.external98.*;
+import in.java.overriding.door.external34.*;
+import in.java.overriding.dosa.external46.*;
+import in.java.overriding.drum.external70.*;
+import in.java.overriding.earpod.external3.*;
+import in.java.overriding.earring.external27.*;
+import in.java.overriding.file.external100.*;
+import in.java.overriding.flower.external35.*;
+import in.java.overriding.guitar.external89.*;
+import in.java.overriding.gun.external51.*;
+import in.java.overriding.halwa.external12.*;
+import in.java.overriding.hanger.external55.*;
+import in.java.overriding.helmet.external86.*;
+import in.java.overriding.icecream.external4.*;
+import in.java.overriding.jeep.external99.*;
+import in.java.overriding.juice.external41.*;
+import in.java.overriding.keyboard.external88.*;
+import in.java.overriding.Knife.external11.*;
+import in.java.overriding.laptop.external17.*;
+import in.java.overriding.Locket.external7.*;
+import in.java.overriding.mask.external15.*;
+import in.java.overriding.mat.external47.*;
+import in.java.overriding.mic.external65.*;
+import in.java.overriding.money.external53.*;
+import in.java.overriding.needle.external68.*;
+import in.java.overriding.net.external83.*;
+import in.java.overriding.panipuri.external92.*;
+import in.java.overriding.pant.external40.*;
+import in.java.overriding.parachut.external16.*;
+import in.java.overriding.paste.external32.*;
+import in.java.overriding.perfume.external38.*;
+import in.java.overriding.photo.external50.*;
+import in.java.overriding.pipe.external82.*;
+import in.java.overriding.pizza.external76.*;
+import in.java.overriding.pouch.external20.*;
+import in.java.overriding.radio.external66.*;
+import in.java.overriding.ring.external18.*;
+import in.java.overriding.scale.external69.*;
+import in.java.overriding.seat.external74.*;
+import in.java.overriding.Silver.external6.*;
+import in.java.overriding.specs.external8.*;
+import in.java.overriding.spoon.external61.*;
+import in.java.overriding.stick.external71.*;
+import in.java.overriding.stone.external60.*;
+import in.java.overriding.straw.external81.*;
+import in.java.overriding.sun.external26.*;
+import in.java.overriding.sward.external91.*;
+import in.java.overriding.sweetcorn.external19.*;
+import in.java.overriding.table.external73.*;
+import in.java.overriding.Tablet.external57.*;
+import in.java.overriding.television.external42.*;
+import in.java.overriding.tiles.external79.*;
+import in.java.overriding.tire.external.*;
+import in.java.overriding.tissue.external.*;
+import in.java.overriding.towel.external.*;
+import in.java.overriding.toy.external.*;
+import in.java.overriding.tree.external.*;
+import in.java.overriding.umbrella.external.*;
+import in.java.overriding.usb.external.*;
+import in.java.overriding.washing.external.*;
+import in.java.overriding.wire.external.*;
+import in.java.overriding.zip.external.*;
+import in.java.overriding.charger.external97.*;
 
 
 public class allRunner {
@@ -121,38 +218,51 @@ public class allRunner {
         LEDBulb ledBulb = new LEDBulb();
         ledBulb.glow();
         ledBulb.powerConsumption();
+        Lighting light =new Lighting();
+        light.illuminate(bulb);
+        light.illuminate(bulb1);
+        light.illuminate(ledBulb);
 
         System.out.println("-----------------------------------------------------------");
         Door door = new Door();
         door.open();
-
         Door door1 = new SlidingDoor();
         door1.open();
-
         SlidingDoor slidingDoor = new SlidingDoor();
         slidingDoor.open();
         slidingDoor.lockType();
+        Entrance entrance =new Entrance();
+        entrance.access(door);
+        entrance.access(door1);
+        entrance.access(slidingDoor);
+
         System.out.println("-----------------------------------------------------------");
         Flower flower = new Flower();
         flower.smell();
-
         Flower flower1 = new Rose();
         flower1.smell();
 
         Rose rose = new Rose();
         rose.smell();
         rose.color();
-
-        System.out.println("-----------------------------------------------------------");
+        //casting
+        Garden garden=new Garden();
+        garden.checkFlower(flower);
+        garden.checkFlower(flower1);
+        garden.checkFlower(rose);
+        //toString
+    System.out.println("-----------------------------------------------------------");
         Belt belt = new Belt();
         belt.hold();
-
         Belt belt1 = new LeatherBelt();
         belt1.hold();
-
         LeatherBelt leatherBelt = new LeatherBelt();
         leatherBelt.hold();
         leatherBelt.material();
+
+
+
+
         System.out.println("-----------------------------------------------------------");
 
         Charger charger = new Charger();
@@ -164,6 +274,15 @@ public class allRunner {
         FastCharger fastCharger = new FastCharger();
         fastCharger.charge();
         fastCharger.outputPower();
+        //cating
+        Power power=new Power();
+        power.supply(charger);
+        power.supply(charger1);
+        power.supply(fastCharger);
+
+
+
+
         System.out.println("-----------------------------------------------------------");
         Umbrella umbrella = new Umbrella();
         umbrella.protect();
@@ -174,6 +293,12 @@ public class allRunner {
         FoldingUmbrella foldingUmbrella = new FoldingUmbrella();
         foldingUmbrella.protect();
         foldingUmbrella.fold();
+        //casting
+        UmbrellaTester umbrellaTester=new UmbrellaTester();
+        umbrellaTester.check(umbrella);
+        umbrellaTester.check(umbrella1);
+        umbrellaTester.check(foldingUmbrella);
+
 
         System.out.println("-----------------------------------------------------------");
 
@@ -186,16 +311,28 @@ public class allRunner {
         OrangeJuice orangeJuice = new OrangeJuice();
         orangeJuice.drink();
         orangeJuice.vitaminCContent();
+        //cating
+        JuiceOrder juiceOrder=new JuiceOrder();
+        juiceOrder.serve(juice);
+        juiceOrder.serve(juice1);
+        juiceOrder.serve(orangeJuice);
+//toString
+
+
         System.out.println("-----------------------------------------------------------");
         Pant pant = new Pant();
         pant.wear();
-
         Pant pant1 = new JeansPant();
         pant1.wear();
-
         JeansPant jeansPant = new JeansPant();
         jeansPant.wear();
         jeansPant.fabric();
+        //casting
+        PantTest pantTest=new PantTest();
+        pantTest.cloth(pant);
+        pantTest.cloth(pant1);
+        pantTest.cloth(jeansPant);
+        //toString
 
         System.out.println("-----------------------------------------------------------");
         Chocolate chocolate = new Chocolate();
@@ -207,6 +344,13 @@ public class allRunner {
         DarkChocolate darkChocolate = new DarkChocolate();
         darkChocolate.taste();
         darkChocolate.cocoaPercentage();
+        //casting
+        Sweet sweet=new Sweet();
+        sweet.check(chocolate);
+        sweet.check(chocolate1);
+        sweet.check(darkChocolate);
+
+
         System.out.println("-----------------------------------------------------------");
         Perfume perfume = new Perfume();
         perfume.fragrance();
@@ -217,6 +361,14 @@ public class allRunner {
         FloralPerfume floralPerfume = new FloralPerfume();
         floralPerfume.fragrance();
         floralPerfume.duration();
+
+        PerfumeTest perfumeTest =new PerfumeTest();
+        perfumeTest.testFragrance(perfume);
+        perfumeTest.testFragrance(perfume1);
+        perfumeTest.testFragrance(floralPerfume);
+//toString
+
+
         System.out.println("-----------------------------------------------------------");
         Bangle bangle = new Bangle();
         bangle.wear();
@@ -227,6 +379,12 @@ public class allRunner {
         GoldBangle goldBangle = new GoldBangle();
         goldBangle.wear();
         goldBangle.purity();
+        //casting
+        Fancy fancy=new Fancy();
+        fancy.chain(bangle);
+        fancy.chain(bangle1);
+        fancy.chain(goldBangle);
+
 
         System.out.println("-----------------------------------------------------------");
 
@@ -242,6 +400,9 @@ public class allRunner {
         wings.hight(bird);
         wings.hight(b1);
         wings.hight(feather);
+
+
+
         System.out.println("-------------------------------------------------------------");
         Cloud cldy = new Cloud();
         cldy.cloudy();
@@ -250,6 +411,11 @@ public class allRunner {
         Rainny rain = new Rainny();
         rain.cloudy();
         rain.blackCloudy();
+        Weather weather=new Weather();
+        weather.forecast(cldy);
+        weather.forecast(cldy1);
+        weather.forecast(rain);
+
         System.out.println("---------------------------------------------------------------");
         Earpod ear1 = new Earpod();
         ear1.price();
@@ -258,6 +424,12 @@ public class allRunner {
         Color col = new Color();
         col.price();
         col.brand();
+        Shop shop=new Shop();
+        shop.sell(ear1);
+        shop.sell(ear2);
+        shop.sell(col);
+
+
         System.out.println("-----------------------------------------------------------");
         IceCream ice1 = new IceCream();
         ice1.flavour();
@@ -266,6 +438,14 @@ public class allRunner {
         Vannila vannila = new Vannila();
         vannila.flavour();
         vannila.pista();
+        //casting
+        IceCreamAction iceCreamAction=new IceCreamAction();
+        iceCreamAction.serveIceCream(ice1);
+        iceCreamAction.serveIceCream(ice2);
+        iceCreamAction.serveIceCream(vannila);
+
+
+
         System.out.println("-----------------------------------------------------------");
         Clip clip1 = new Clip();
         clip1.Material();
@@ -274,6 +454,15 @@ public class allRunner {
         Plastic pl = new Plastic();
         pl.Material();
         pl.clipType();
+        //casting
+        Holder holder=new Holder();
+        holder.check(clip1);
+        holder.check(cl);
+        holder.check(pl);
+
+
+
+
         System.out.println("-----------------------------------------------------------");
         Locket locket1 = new Locket();
         locket1.chain();
@@ -281,6 +470,14 @@ public class allRunner {
         locket2.chain();
         Gold gold = new Gold();
         gold.shape();
+        //casting
+        LocketTest locketTest=new LocketTest();
+        locketTest.testChain(locket1);
+        locketTest.testChain(locket2);
+        locketTest.testChain(gold);
+
+
+
         System.out.println("-----------------------------------------------------------");
         Silver silver = new Silver();
         silver.coin();
@@ -289,6 +486,12 @@ public class allRunner {
         Plate plate = new Plate();
         plate.coin();
         plate.glass();
+        SilverTest silverTest=new SilverTest();
+        silverTest.testSilver(silver);
+        silverTest.testSilver(silver1);
+        silverTest.testSilver(plate);
+
+
         System.out.println("-----------------------------------------------------------");
         Specs sp = new Specs();
         sp.frame();
@@ -297,6 +500,14 @@ public class allRunner {
         Brand brand = new Brand();
         brand.frame();
         brand.black();
+        SpecsTest specsTest=new SpecsTest();
+        specsTest.testSpecs(sp);
+        specsTest.testSpecs(sp1);
+        specsTest.testSpecs(brand);
+
+
+
+
         System.out.println("-----------------------------------------------------------");
         Towel towel1 = new Towel();
         towel1.cloth();
@@ -305,6 +516,14 @@ public class allRunner {
         Turkey turkey = new Turkey();
         turkey.cloth();
         turkey.cotton();
+        TowelShop towelShop=new TowelShop();
+        towelShop.display(towel1);
+        towelShop.display(towel2);
+        towelShop.display(turkey);
+
+
+
+
         System.out.println("-----------------------------------------------------------");
         Knife knife1 = new Knife();
         knife1.cut();
@@ -312,6 +531,12 @@ public class allRunner {
         knife2.cut();
         Veggies veg = new Veggies();
         veg.fruit();
+        KnifeTest knifeTest=new KnifeTest();
+        knifeTest.testCut(knife1);
+        knifeTest.testCut(knife2);
+        knifeTest.testCut(veg);
+
+
         System.out.println("-----------------------------------------------------------");
         Halwa halwa = new Halwa();
         halwa.sweet();
@@ -320,6 +545,13 @@ public class allRunner {
         PineApple pineApple = new PineApple();
         pineApple.sweet();
         pineApple.piece();
+        Tasting tasting=new Tasting();
+        tasting.taste(halwa);
+        tasting.taste(halwa1);
+        tasting.taste(pineApple);
+
+
+
         System.out.println("-----------------------------------------------------------");
         Cake cake1 = new Cake();
         Cake cake2 = new Pastry();
@@ -336,6 +568,10 @@ public class allRunner {
         System.out.println("type casting");
         legs.herbivorous(animal);
         legs.herbivorous(animal1);
+        //toString
+        Animal animal2=new Animal("cheeta","brown");
+           animal2.toString();
+           System.out.println(animaml2);
 
         System.out.println("-----------------------------------------------------------");
         Mask mask1 = new Mask();
@@ -418,6 +654,14 @@ public class allRunner {
         SchoolBag schoolBag = new SchoolBag();
         schoolBag.type();
         schoolBag.capacity();
+        HandBag handbag=new Handbag();
+        handbag.type(bag);
+        handbag.type(bag1);
+        handbag.type(schoolBag);
+
+
+
+
         System.out.println("-----------------------------------------------------------");
         Bottle bottle = new Bottle();
         bottle.material();
@@ -552,10 +796,8 @@ public class allRunner {
 
         Mat mat = new Mat();
         mat.use();
-
         Mat mat1 = new YogaMat();
         mat1.use();
-
         YogaMat yogaMat = new YogaMat();
         yogaMat.use();
         yogaMat.thickness();
@@ -1015,6 +1257,16 @@ public class allRunner {
         GoldBraklet goldBraklet = new GoldBraklet();
         goldBraklet.wear();
         goldBraklet.shine();
+
+        Fashion fashion=new Fashion();
+        fashion.wear(braklet);
+        fashion.wear(braklet1);
+        fashion.wear(goldBraklet);
+
+
+
+
+
         System.out.println("-----------------------------------------------------------");
         Sward sward = new Sward();
         sward.attack();
@@ -1025,6 +1277,12 @@ public class allRunner {
         SteelSward steelSward = new SteelSward();
         steelSward.attack();
         steelSward.sharpen();
+       //casting
+        SwardTest swardTest=new SwardTest();
+        swardTest.checkSward(sward);
+        swardTest.checkSward(sward1);
+        swardTest.checkSward(steelSward);
+
 
         System.out.println("-----------------------------------------------------------");
         Panipuri panipuri = new Panipuri();
@@ -1037,6 +1295,16 @@ public class allRunner {
         spicyPanipuri.serve();
         spicyPanipuri.addExtraSpice();
 
+        //casting
+        FoodStall foodStall=new FoodStall();
+        foodStall.serveItem(panipuri);
+        foodStall.serveItem(panipuri1);
+        foodStall.serveItem(spicyPanipuri);
+
+
+
+
+
         System.out.println("-----------------------------------------------------------");
 
         Beads beads = new Beads();
@@ -1048,6 +1316,11 @@ public class allRunner {
         ColorBeads colorBeads = new ColorBeads();
         colorBeads.decorate();
         colorBeads.sortByColor();
+        Necklace necklace=new Necklace();
+        necklace.greenPearl(beads);
+        necklace.greenPearl(beads1);
+        necklace.greenPearl(colorBeads);
+
 
         System.out.println("-----------------------------------------------------------");
 
@@ -1060,6 +1333,14 @@ public class allRunner {
         DigitalClipboard digitalClipboard = new DigitalClipboard();
         digitalClipboard.hold();
         digitalClipboard.copyText();
+        //cating
+        ClipboardUtility clipboardUtility=new ClipboardUtility();
+        clipboardUtility.useClipboard(clipboard);
+        clipboardUtility.useClipboard(clipboard1);
+        clipboardUtility.useClipboard(digitalClipboard);
+
+
+
 
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");

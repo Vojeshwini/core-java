@@ -6,7 +6,7 @@ public class ParachutTest {
         if (parachut != null) {
             parachut.height();
             if (parachut instanceof Air) {
-                Air ref = (Air) parachut;
+                Air ref = (Air)parachut;
                 ref.cost();
             } else {
                 System.err.println("cost method is not available for this Parachut");
