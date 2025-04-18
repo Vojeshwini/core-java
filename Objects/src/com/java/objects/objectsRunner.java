@@ -929,6 +929,409 @@ System.out.println("------------------------------------------------------------
             System.out.println("iceCream1 and iceCream3 isMatching? " + ic2);
             System.out.println("iceCream2 and iceCream3 isMatching? " + ic3);
             System.out.println("------------------------------------------------------------------------");
+            //to strinng
+        System.out.println("to String");
+        Tree tree=new Tree();
+        tree.setName("Papaya");
+        tree.setHeight(24);
+        System.out.println(tree);
+        //equals
+        System.out.println("equals methos");
+        Tree tree1=new Tree();
+        tree1.setName("apple");
+        tree1.setHeight(14);
+
+        Tree tree2=new Tree();
+        tree2.setName("Orange");
+        tree2.setHeight(30);
+
+        Tree tree3=new Tree();
+        tree3.setName("apple");
+        tree3.setHeight(14);
+
+        boolean tr1=tree1.equals(tree2);
+        boolean tr2=tree1.equals(tree3);
+        boolean tr3=tree2.equals(tree3);
+
+        System.out.println("tree1 and tree2 isMatching?"+tr1);
+        System.out.println("tree1 and tree3 isMatching?"+tr2);
+        System.out.println("tree2 and tree3 isMatching?"+tr3);
+        System.out.println("---------------------------------------------------------------------------");
+
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Door door = new Door();
+        door.setMaterial("Wood");
+        door.setColor("Brown");
+        door.setType("Single Door");
+        door.setHeight(7.0);
+        System.out.println(door);
+
+        System.out.println("Equals method");
+
+        Door door1 = new Door();
+        door1.setMaterial("Steel");
+        door1.setColor("Gray");
+        door1.setType("Double Door");
+        door1.setHeight(8.0);
+
+        Door door2 = new Door();
+        door2.setMaterial("Steel");
+        door2.setColor("Gray");
+        door2.setType("Double Door");
+        door2.setHeight(8.0);
+
+        Door door3 = new Door();
+        door3.setMaterial("PVC");
+        door3.setColor("White");
+        door3.setType("Folding");
+        door3.setHeight(6.5);
+
+        boolean doo1 = door1.equals(door2);
+        boolean doo2 = door1.equals(door3);
+        boolean doo3 = door2.equals(door3);
+        System.out.println("door1 and door2 isMatching? " + doo1);
+        System.out.println("door1 and door3 isMatching? " + doo2);
+        System.out.println("door2 and door3 isMatching? " + doo3);
+        System.out.println("------------------------------------------------------------------------");
+
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Bird bird = new Bird();
+        bird.setName("Parrot");
+        bird.setColor("Green");
+        bird.setHabitat("Tropical");
+        bird.setWingspan(0.5);
+        System.out.println(bird);
+
+        System.out.println("Equals method");
+
+        Bird bird1 = new Bird();
+        bird1.setName("Sparrow");
+        bird1.setColor("Brown");
+        bird1.setHabitat("Urban");
+        bird1.setWingspan(0.3);
+
+        Bird bird2 = new Bird();
+        bird2.setName("Sparrow");
+        bird2.setColor("Brown");
+        bird2.setHabitat("Urban");
+        bird2.setWingspan(0.3);
+
+        Bird bird3 = new Bird();
+        bird3.setName("Peacock");
+        bird3.setColor("Blue");
+        bird3.setHabitat("Forest");
+        bird3.setWingspan(1.5);
+
+        boolean bi1 = bird1.equals(bird2);
+        boolean bi2 = bird1.equals(bird3);
+        boolean bi3 = bird2.equals(bird3);
+        System.out.println("bird1 and bird2 isMatching? " + b1);
+        System.out.println("bird1 and bird3 isMatching? " + b2);
+        System.out.println("bird2 and bird3 isMatching? " + b3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Sun sun = new Sun();
+        sun.setColor("Yellow");
+        sun.setTemperature(5778.0);
+        sun.setGalaxy("Milky Way");
+        sun.setRadius(695700.0);
+        System.out.println(sun);
+
+        System.out.println("Equals method");
+
+        Sun sun1 = new Sun();
+        sun1.setColor("Yellow");
+        sun1.setTemperature(5778.0);
+        sun1.setGalaxy("Milky Way");
+        sun1.setRadius(695700.0);
+
+        Sun sun2 = new Sun();
+        sun2.setColor("Yellow");
+        sun2.setTemperature(5778.0);
+        sun2.setGalaxy("Milky Way");
+        sun2.setRadius(695700.0);
+
+        Sun sun3 = new Sun();
+        sun3.setColor("Red");
+        sun3.setTemperature(3500.0);
+        sun3.setGalaxy("Andromeda");
+        sun3.setRadius(400000.0);
+
+        boolean su1 = sun1.equals(sun2);
+        boolean su2 = sun1.equals(sun3);
+        boolean su3 = sun2.equals(sun3);
+        System.out.println("sun1 and sun2 isMatching? " + s1);
+        System.out.println("sun1 and sun3 isMatching? " + s2);
+        System.out.println("sun2 and sun3 isMatching? " + s3);
+        System.out.println("------------------------------------------------------------------------");
+
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Scale scale = new Scale();
+        scale.setBrand("Atom");
+        scale.setType("Digital");
+        scale.setColor("Black");
+        scale.setWeightLimit(150.0);
+        System.out.println(scale);
+
+        System.out.println("Equals method");
+
+        Scale scale1 = new Scale();
+        scale1.setBrand("WeighMax");
+        scale1.setType("Analog");
+        scale1.setColor("White");
+        scale1.setWeightLimit(120.0);
+
+        Scale scale2 = new Scale();
+        scale2.setBrand("WeighMax");
+        scale2.setType("Analog");
+        scale2.setColor("White");
+        scale2.setWeightLimit(120.0);
+
+        Scale scale3 = new Scale();
+        scale3.setBrand("Atom");
+        scale3.setType("Smart");
+        scale3.setColor("Silver");
+        scale3.setWeightLimit(200.0);
+
+        boolean sc1 = scale1.equals(scale2);
+        boolean sc2 = scale1.equals(scale3);
+        boolean sc3 = scale2.equals(scale3);
+        System.out.println("scale1 and scale2 isMatching? " + sc1);
+        System.out.println("scale1 and scale3 isMatching? " + sc2);
+        System.out.println("scale2 and scale3 isMatching? " + sc3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Ticket ticket = new Ticket();
+        ticket.setEventName("Rock Concert");
+        ticket.setSeatNumber("A12");
+        ticket.setDate("2025-05-10");
+        ticket.setPrice(350.0);
+        System.out.println(ticket);
+
+        System.out.println("Equals method");
+
+        Ticket ticket1 = new Ticket();
+        ticket1.setEventName("Comedy Show");
+        ticket1.setSeatNumber("B15");
+        ticket1.setDate("2025-06-20");
+        ticket1.setPrice(250.0);
+
+        Ticket ticket2 = new Ticket();
+        ticket2.setEventName("Comedy Show");
+        ticket2.setSeatNumber("B15");
+        ticket2.setDate("2025-06-20");
+        ticket2.setPrice(250.0);
+
+        Ticket ticket3 = new Ticket();
+        ticket3.setEventName("Drama Play");
+        ticket3.setSeatNumber("C20");
+        ticket3.setDate("2025-07-01");
+        ticket3.setPrice(400.0);
+
+        boolean ti1 = ticket1.equals(ticket2);
+        boolean ti2 = ticket1.equals(ticket3);
+        boolean ti3 = ticket2.equals(ticket3);
+        System.out.println("ticket1 and ticket2 isMatching? " + t1);
+        System.out.println("ticket1 and ticket3 isMatching? " + t2);
+        System.out.println("ticket2 and ticket3 isMatching? " + t3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Jelly jelly = new Jelly();
+        jelly.setFlavor("Strawberry");
+        jelly.setBrand("Kissan");
+        jelly.setColor("Red");
+        jelly.setWeight(150.0);
+        System.out.println(jelly);
+
+        System.out.println("Equals method");
+
+        Jelly jelly1 = new Jelly();
+        jelly1.setFlavor("Mango");
+        jelly1.setBrand("Mapro");
+        jelly1.setColor("Yellow");
+        jelly1.setWeight(120.0);
+
+        Jelly jelly2 = new Jelly();
+        jelly2.setFlavor("Mango");
+        jelly2.setBrand("Mapro");
+        jelly2.setColor("Yellow");
+        jelly2.setWeight(120.0);
+
+        Jelly jelly3 = new Jelly();
+        jelly3.setFlavor("Grape");
+        jelly3.setBrand("FruityFun");
+        jelly3.setColor("Purple");
+        jelly3.setWeight(130.0);
+
+        boolean je1 = jelly1.equals(jelly2);
+        boolean je2 = jelly1.equals(jelly3);
+        boolean je3 = jelly2.equals(jelly3);
+        System.out.println("jelly1 and jelly2 isMatching? " + j1);
+        System.out.println("jelly1 and jelly3 isMatching? " + j2);
+        System.out.println("jelly2 and jelly3 isMatching? " + j3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Paint paint = new Paint();
+        paint.setBrand("Asian Paints");
+        paint.setColor("Blue");
+        paint.setType("Emulsion");
+        paint.setQuantity(5.0);
+        System.out.println(paint);
+
+        System.out.println("Equals method");
+
+        Paint paint1 = new Paint();
+        paint1.setBrand("Nerolac");
+        paint1.setColor("White");
+        paint1.setType("Distemper");
+        paint1.setQuantity(10.0);
+
+        Paint paint2 = new Paint();
+        paint2.setBrand("Nerolac");
+        paint2.setColor("White");
+        paint2.setType("Distemper");
+        paint2.setQuantity(10.0);
+
+        Paint paint3 = new Paint();
+        paint3.setBrand("Berger");
+        paint3.setColor("Yellow");
+        paint3.setType("Glossy");
+        paint3.setQuantity(8.0);
+
+        boolean pai1 = paint1.equals(paint2);
+        boolean pai2 = paint1.equals(paint3);
+        boolean pai3 = paint2.equals(paint3);
+        System.out.println("paint1 and paint2 isMatching? " + p1);
+        System.out.println("paint1 and paint3 isMatching? " + p2);
+        System.out.println("paint2 and paint3 isMatching? " + p3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Polish polish = new Polish();
+        polish.setBrand("Colin");
+        polish.setType("Spray");
+        polish.setPurpose("Glass Cleaning");
+        polish.setQuantity(500.0);
+        System.out.println(polish);
+
+        System.out.println("Equals method");
+
+        Polish polish1 = new Polish();
+        polish1.setBrand("Pidilite");
+        polish1.setType("Liquid");
+        polish1.setPurpose("Wood Polish");
+        polish1.setQuantity(750.0);
+
+        Polish polish2 = new Polish();
+        polish2.setBrand("Pidilite");
+        polish2.setType("Liquid");
+        polish2.setPurpose("Wood Polish");
+        polish2.setQuantity(750.0);
+
+        Polish polish3 = new Polish();
+        polish3.setBrand("Brasso");
+        polish3.setType("Cream");
+        polish3.setPurpose("Metal Polish");
+        polish3.setQuantity(300.0);
+
+        boolean po1 = polish1.equals(polish2);
+        boolean po2 = polish1.equals(polish3);
+        boolean po3 = polish2.equals(polish3);
+        System.out.println("polish1 and polish2 isMatching? " + po1);
+        System.out.println("polish1 and polish3 isMatching? " + po2);
+        System.out.println("polish2 and polish3 isMatching? " + po3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        PanCard panCard = new PanCard();
+        panCard.setPanNumber("ABCDE1234F");
+        panCard.setName("John Doe");
+        panCard.setDob("1990-12-15");
+        panCard.setAddress("123, Some Street, Some City, Some Country");
+        System.out.println(panCard);
+
+        System.out.println("Equals method");
+
+        PanCard panCard1 = new PanCard();
+        panCard1.setPanNumber("ABCDE5678G");
+        panCard1.setName("Jane Smith");
+        panCard1.setDob("1985-07-20");
+        panCard1.setAddress("456, Another Street, Another City, Another Country");
+
+        PanCard panCard2 = new PanCard();
+        panCard2.setPanNumber("ABCDE5678G");
+        panCard2.setName("Jane Smith");
+        panCard2.setDob("1985-07-20");
+        panCard2.setAddress("456, Another Street, Another City, Another Country");
+
+        PanCard panCard3 = new PanCard();
+        panCard3.setPanNumber("XYZAB6789D");
+        panCard3.setName("Mike Johnson");
+        panCard3.setDob("1992-05-05");
+        panCard3.setAddress("789, Yet Another Street, Yet Another City, Yet Another Country");
+
+        boolean pan1 = panCard1.equals(panCard2);
+        boolean pan2 = panCard1.equals(panCard3);
+        boolean pan3 = panCard2.equals(panCard3);
+        System.out.println("panCard1 and panCard2 isMatching? " + p1);
+        System.out.println("panCard1 and panCard3 isMatching? " + p2);
+        System.out.println("panCard2 and panCard3 isMatching? " + p3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Peacock peacock = new Peacock();
+        peacock.setSpecies("Indian Peafowl");
+        peacock.setColor("Blue");
+        peacock.setHabitat("Tropical forests");
+        peacock.setWeight(4.0);
+        System.out.println(peacock);
+
+        System.out.println("Equals method");
+
+        Peacock peacock1 = new Peacock();
+        peacock1.setSpecies("Peafowl");
+        peacock1.setColor("Green");
+        peacock1.setHabitat("Rainforests");
+        peacock1.setWeight(3.5);
+
+        Peacock peacock2 = new Peacock();
+        peacock2.setSpecies("Peafowl");
+        peacock2.setColor("Green");
+        peacock2.setHabitat("Rainforests");
+        peacock2.setWeight(3.5);
+
+        Peacock peacock3 = new Peacock();
+        peacock3.setSpecies("Peacock");
+        peacock3.setColor("Blue");
+        peacock3.setHabitat("Grasslands");
+        peacock3.setWeight(4.2);
+
+        boolean pc1 = peacock1.equals(peacock2);
+        boolean pc2 = peacock1.equals(peacock3);
+        boolean pc3 = peacock2.equals(peacock3);
+        System.out.println("peacock1 and peacock2 isMatching? " + p1);
+        System.out.println("peacock1 and peacock3 isMatching? " + p2);
+        System.out.println("peacock2 and peacock3 isMatching? " + p3);
+        System.out.println("------------------------------------------------------------------------");
+
+
 
 
     }
