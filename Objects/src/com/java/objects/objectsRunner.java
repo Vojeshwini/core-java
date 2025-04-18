@@ -1330,6 +1330,80 @@ System.out.println("------------------------------------------------------------
         System.out.println("peacock1 and peacock3 isMatching? " + p2);
         System.out.println("peacock2 and peacock3 isMatching? " + p3);
         System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Potato potato = new Potato();
+        potato.setVariety("Russet");
+        potato.setColor("Brown");
+        potato.setWeight(1.5);
+        potato.setOrigin("USA");
+        System.out.println(potato);
+
+        System.out.println("Equals method");
+
+        Potato potato1 = new Potato();
+        potato1.setVariety("Yukon Gold");
+        potato1.setColor("Yellow");
+        potato1.setWeight(1.2);
+        potato1.setOrigin("Canada");
+
+        Potato potato2 = new Potato();
+        potato2.setVariety("Yukon Gold");
+        potato2.setColor("Yellow");
+        potato2.setWeight(1.2);
+        potato2.setOrigin("Canada");
+
+        Potato potato3 = new Potato();
+        potato3.setVariety("Russet");
+        potato3.setColor("Brown");
+        potato3.setWeight(1.4);
+        potato3.setOrigin("USA");
+
+        boolean pt1 = potato1.equals(potato2);
+        boolean pt2 = potato1.equals(potato3);
+        boolean pt3 = potato2.equals(potato3);
+        System.out.println("potato1 and potato2 isMatching? " + p1);
+        System.out.println("potato1 and potato3 isMatching? " + p2);
+        System.out.println("potato2 and potato3 isMatching? " + p3);
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("using setter");
+        System.out.println("toString");
+
+        Pineapple pineapple = new Pineapple();
+        pineapple.setVariety("Queen");
+        pineapple.setColor("Golden Yellow");
+        pineapple.setWeight(1.2);
+        pineapple.setOrigin("India");
+        System.out.println(pineapple);
+
+        System.out.println("Equals method");
+
+        Pineapple pineapple1 = new Pineapple();
+        pineapple1.setVariety("Ananas");
+        pineapple1.setColor("Greenish Yellow");
+        pineapple1.setWeight(1.5);
+        pineapple1.setOrigin("Philippines");
+
+        Pineapple pineapple2 = new Pineapple();
+        pineapple2.setVariety("Ananas");
+        pineapple2.setColor("Greenish Yellow");
+        pineapple2.setWeight(1.5);
+        pineapple2.setOrigin("Philippines");
+
+        Pineapple pineapple3 = new Pineapple();
+        pineapple3.setVariety("Queen");
+        pineapple3.setColor("Golden Yellow");
+        pineapple3.setWeight(1.0);
+        pineapple3.setOrigin("India");
+
+        boolean pine1 = pineapple1.equals(pineapple2);
+        boolean pine2 = pineapple1.equals(pineapple3);
+        boolean pine3 = pineapple2.equals(pineapple3);
+        System.out.println("pineapple1 and pineapple2 isMatching? " + p1);
+        System.out.println("pineapple1 and pineapple3 isMatching? " + p2);
+        System.out.println("pineapple2 and pineapple3 isMatching? " + p3);
+        System.out.println("------------------------------------------------------------------------");
 
 
 
