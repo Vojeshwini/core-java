@@ -1403,7 +1403,7 @@ System.out.println("------------------------------------------------------------
         System.out.println("pineapple1 and pineapple2 isMatching? " + p1);
         System.out.println("pineapple1 and pineapple3 isMatching? " + p2);
         System.out.println("pineapple2 and pineapple3 isMatching? " + p3);
-        System.out.println("------------------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------------");
 
 
 
