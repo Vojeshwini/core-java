@@ -17,6 +17,11 @@ public class runner {
 
         AbstractBuilding abstractBuilding=new Foundation();
         abstractBuilding.material();
+
+        //3. Declare an abstract class with one abstract method and one concrete method and extend it by a subclass. Create copy of subclass
+   AbstractProject abstractProject=new Start();
+   abstractProject.topic();
+   abstractProject.plan();
     }
 
 }
