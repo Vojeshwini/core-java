@@ -157,9 +157,146 @@ public class runner {
 
             System.out.println("-------------------------------------------------");
 
+            Cupboard cupboard = new Storage();
+            cupboard.door();
+            cupboard.shelf();
+            cupboard.lock();
+            cupboard.handle();
+            cupboard.material();
 
+            Storage storage = new Storage();
+            storage.door();
+            storage.shelf();
+            storage.lock();
+            storage.handle();
+            storage.material();
 
+            System.out.println("-------------------------------------------------");
+        Doll doll = new Toy();
+        doll.hair();
+        doll.dress();
+        doll.eyes();
+        doll.voice();
+        doll.size();
 
+        Toy toy = new Toy();
+        toy.hair();
+        toy.dress();
+        toy.eyes();
+        toy.voice();
+        toy.size();
+        System.out.println("-------------------------------------------------");
+        Hanger hanger = new Hook();
+        hanger.hook();
+        hanger.rod();
+        hanger.clip();
+        hanger.grip();
+        hanger.material();
+
+        Hook hook = new Hook();
+        hook.hook();
+        hook.rod();
+        hook.clip();
+        hook.grip();
+        hook.material();
+
+        System.out.println("-------------------------------------------------");
+
+                IceCream iceCream = new Cone();
+                iceCream.flavor();
+                iceCream.color();
+                iceCream.cone();
+                iceCream.size();
+                iceCream.price();
+                iceCream.toppings();
+                iceCream.brand();
+
+                Cone cone = new Cone();
+                cone.flavor();
+                cone.color();
+                cone.cone();
+                cone.size();
+                cone.price();
+                cone.toppings();
+                cone.brand();
+
+                System.out.println("-------------------------------------------------");
+        Dress dress = new Outfit();
+        dress.type();
+        dress.color();
+        dress.size();
+        dress.material();
+        dress.design();
+        dress.price();
+        dress.brand();
+
+        Outfit outfit = new Outfit();
+        outfit.type();
+        outfit.color();
+        outfit.size();
+        outfit.material();
+        outfit.design();
+        outfit.price();
+        outfit.brand();
+
+        System.out.println("-------------------------------------------------");
+        Lock lock = new Secure();
+        lock.key();
+        lock.code();
+        lock.material();
+        lock.size();
+        lock.type();
+        lock.securityLevel();
+        lock.brand();
+
+        Secure secure = new Secure();
+        secure.key();
+        secure.code();
+        secure.material();
+        secure.size();
+        secure.type();
+        secure.securityLevel();
+        secure.brand();
+
+        System.out.println("-------------------------------------------------");
+        Clip clip = new Pin();
+        clip.color();
+        clip.size();
+        clip.type();
+        clip.material();
+        clip.grip();
+        clip.weight();
+        clip.brand();
+
+        Pin pin = new Pin();
+        pin.color();
+        pin.size();
+        pin.type();
+        pin.material();
+        pin.grip();
+        pin.weight();
+        pin.brand();
+
+        System.out.println("-------------------------------------------------");
+        Bed bed = new Furniture();
+        bed.size();
+        bed.frame();
+        bed.mattress();
+        bed.headboard();
+        bed.color();
+        bed.storage();
+        bed.material();
+
+        Furniture furniture = new Furniture();
+        furniture.size();
+        furniture.frame();
+        furniture.mattress();
+        furniture.headboard();
+        furniture.color();
+        furniture.storage();
+        furniture.material();
+
+        System.out.println("-------------------------------------------------");
 
     }
 }
