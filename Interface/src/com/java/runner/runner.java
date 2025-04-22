@@ -297,6 +297,119 @@ public class runner {
         furniture.material();
 
         System.out.println("-------------------------------------------------");
+        Aeroplane aeroplane = new Aircraft();
+        aeroplane.engine();
+        aeroplane.wings();
+        aeroplane.passengers();
+        aeroplane.fuel();
+        aeroplane.altitude();
+        aeroplane.speed();
+        aeroplane.landingGear();
+        aeroplane.cockpit();
+        aeroplane.safetyFeatures();
+
+        Aircraft aircraft = new Aircraft();
+        aircraft.engine();
+        aircraft.wings();
+        aircraft.passengers();
+        aircraft.fuel();
+        aircraft.altitude();
+        aircraft.speed();
+        aircraft.landingGear();
+        aircraft.cockpit();
+        aircraft.safetyFeatures();
+        System.out.println("-------------------------------------------------");
+        Pipe pipe = new Plumbing();
+        pipe.diameter();
+        pipe.material();
+        pipe.length();
+        pipe.pressureRating();
+        pipe.coating();
+        pipe.type();
+        pipe.temperatureRating();
+        pipe.joints();
+        pipe.installationMethod();
+
+        Plumbing plumbing = new Plumbing();
+        plumbing.diameter();
+        plumbing.material();
+        plumbing.length();
+        plumbing.pressureRating();
+        plumbing.coating();
+        plumbing.type();
+        plumbing.temperatureRating();
+        plumbing.joints();
+        plumbing.installationMethod();
+
+        System.out.println("-------------------------------------------------");
+        Bricks bricks = new Construction();
+        bricks.shape();
+        bricks.size();
+        bricks.color();
+        bricks.weight();
+        bricks.material();
+        bricks.type();
+        bricks.strength();
+        bricks.cost();
+        bricks.usage();
+
+        Construction construction = new Construction();
+        construction.shape();
+        construction.size();
+        construction.color();
+        construction.weight();
+        construction.material();
+        construction.type();
+        construction.strength();
+        construction.cost();
+        construction.usage();
+
+        System.out.println("----------------------------------------------------------------");
+        House house = new Home();
+        house.rooms();
+        house.doors();
+        house.windows();
+        house.floors();
+        house.roof();
+        house.paint();
+        house.furniture();
+        house.garden();
+        house.garage();
+
+        Home home = new Home();
+        home.rooms();
+        home.doors();
+        home.windows();
+        home.floors();
+        home.roof();
+        home.paint();
+        home.furniture();
+        home.garden();
+        home.garage();
+        System.out.println("-------------------------------------------------");
+        Truck truck = new Transport();
+        truck.engine();
+        truck.wheels();
+        truck.cargoCapacity();
+        truck.fuelType();
+        truck.axle();
+        truck.cabin();
+        truck.loadType();
+        truck.brand();
+        truck.speedLimit();
+
+        Transport transport = new Transport();
+        transport.engine();
+        transport.wheels();
+        transport.cargoCapacity();
+        transport.fuelType();
+        transport.axle();
+        transport.cabin();
+        transport.loadType();
+        transport.brand();
+        transport.speedLimit();
+        System.out.println("-----------------------------------------------------------------");
+
 
     }
 }
