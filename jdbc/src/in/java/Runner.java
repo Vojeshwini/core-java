@@ -1,12 +1,21 @@
 package in.java;
 import in.java.external.ext1.GreenLine;
 import in.java.external.ext2.Airtel;
+import in.java.external.ext3.Bypass;
+import in.java.external.ext3.NationalHighway;
+import in.java.external.ext3.StateHighway;
+import in.java.external.ext4.Departure;
+import in.java.external.ext4.Hal;
+import in.java.external.ext4.Indigo;
 import in.java.internal.*;
 import in.java.external.*;
 import in.java.internal.int1.*;
 import in.java.external.ext1.*;
 import in.java.internal.int2.Network;
 import in.java.external.ext2.*;
+import in.java.internal.int3.Road;
+import in.java.internal.int4.AirLine;
+import in.java.external.ext4.*;
 
 
 //using the functionality without knowing the implementation--abstraction
@@ -31,7 +40,16 @@ public class Runner {
         Connect connect=new Connect(network);
         connect.connectHub();
         System.out.println("-----------------------------------------------------------------");
-
+        Road road=new NationalHighway();
+        Road road1=new StateHighway();
+        Bypass bypass=new Bypass(road);
+        bypass.roadJunction();
+        System.out.println("----------------------------------------------------------------------");
+        AirLine airLine=new Indigo();
+        AirLine airLine1=new Hal();
+        Departure departure=new Departure(airLine);
+        departure.source();
+        System.out.println("-------------------------------------------------------------");
     }
     }
 
