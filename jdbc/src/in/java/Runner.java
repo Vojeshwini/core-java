@@ -34,7 +34,7 @@ public class Runner {
         Metro metro1=new PurpleLine();
         Ticket ticket=new Ticket(metro1);//here we can change the metro1 implemetation to metro implementatopn or vise vesa
         ticket.stopStation();
-        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("_-----____________------------------------------------------------------------");
         Network network=new Jio();//or
         Network network1=new Airtel();
         Connect connect=new Connect(network);
