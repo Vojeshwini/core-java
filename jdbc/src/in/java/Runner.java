@@ -39,7 +39,8 @@ public class Runner {
         Network network1=new Airtel();
         Connect connect=new Connect(network);
         connect.connectHub();
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("-------------------------------------------------------_____________---------" +
+                "----------------------------------------------");
         Road road=new NationalHighway();
         Road road1=new StateHighway();
         Bypass bypass=new Bypass(road);
