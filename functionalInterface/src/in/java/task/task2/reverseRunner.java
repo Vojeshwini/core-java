@@ -1,6 +1,5 @@
 package in.java.task.task2;
 
-import javax.jws.soap.SOAPBinding;
 
 public class reverseRunner {
     public static void main(String[] args) {
