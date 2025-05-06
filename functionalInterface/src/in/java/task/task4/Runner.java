@@ -11,6 +11,6 @@ public interface NumberCheckDemo {
             }
         };
 
-        System.out.println("Is 4 even? " + evenCheckerAnonymous.check(4)); // true
+        System.out.println("Is 4 even? " + evenCheckerAnonymous.check(4));
     }
 }
