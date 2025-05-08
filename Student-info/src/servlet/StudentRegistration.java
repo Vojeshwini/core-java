@@ -35,6 +35,7 @@ public class StudentRegistration extends GenericServlet {
         writer.println("<h3>Contact Number:</h3>" + contactNumber);
         writer.println("<h3>Course:</h3>" + course);
         writer.println("<h3>Selected Course:</h3>" + selectCollege);
+        writer.println("<h1>HAVE A NICE DAY</h1>");
 
 
 
