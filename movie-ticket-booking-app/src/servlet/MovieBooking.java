@@ -48,7 +48,7 @@ public class MovieBooking extends GenericServlet {
         writer.println("<h1>STATUS</h1>");
         writer.println("<h3>Name:</h3>" + name);
         writer.println("<h3>Movie Name:</h3>" + movieName);
-        writer.println("<h3>Total Amount:</h3>" + PayableAmout);
+        writer.println("<h3>Total Amount:</h3>"+ PayableAmout);
 
         writer.println("</body>");
         writer.println("</html>");
