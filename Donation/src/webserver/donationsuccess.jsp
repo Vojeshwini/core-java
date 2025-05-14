@@ -7,8 +7,5 @@
 </head>
 <body>
 <h1> thank your for donating</h1>
-
-
-
 </body>
 </html>
