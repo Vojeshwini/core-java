@@ -11,8 +11,8 @@ public class License extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doPost(req, resp);
-        String name=servletRequest.getParameter("name");
-        String contact=servletRequest.getParameter("contact");
+        String name=req.getParameter("name");
+        String contact=req.getParameter("contact");
 
         long n_contact=0;
         if(contact!=null){
