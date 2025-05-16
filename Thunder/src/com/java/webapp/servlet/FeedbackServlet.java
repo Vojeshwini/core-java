@@ -29,7 +29,7 @@ public class FeedbackServlet extends HttpServlet {
         req.setAttribute("contact",contact);
         req.setAttribute("message",message);
 
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("thank.jsp");
+        RequestDispatcher requestDispatcher=req.getRequestDispatcher("feedbackSuccess.jsp");
 
         requestDispatcher.forward(req,resp);
 

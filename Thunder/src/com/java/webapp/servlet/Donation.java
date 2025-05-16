@@ -29,7 +29,7 @@ public class Donation extends HttpServlet {
         req.setAttribute("semester",l_contact);
         req.setAttribute("lab",l_amount);
 
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("LaboratorySuccess.jsp");
+        RequestDispatcher requestDispatcher=req.getRequestDispatcher("donationSuccess.jsp");
         requestDispatcher.forward(req,resp);
 
 
