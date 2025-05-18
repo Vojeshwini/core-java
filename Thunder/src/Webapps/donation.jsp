@@ -23,7 +23,7 @@
     </div>
 </nav>
 <div align="center">
-<form action="feedback" method="post">
+<form action="donation" method="post">
     <h1>FILL THE DETAILS!!!</h1>
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -35,7 +35,7 @@
     <div class="mb-3">
         <label for="exampleInputPassword4" class="form-label">Contact</label>
         <div class="d-flex justify-content-center">
-            <input type="number" name="Contact" placeholder="Contact" class="form-control" id="exampleInputPassword4" style="width: 500px;" name="type">
+            <input type="number" name="contact" placeholder="Contact" class="form-control" id="exampleInputPassword4" style="width: 500px;" name="type">
         </div>
     </div>
 
