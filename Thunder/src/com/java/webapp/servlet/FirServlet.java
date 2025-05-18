@@ -11,7 +11,7 @@ import java.io.IOException;
 public class FirServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+
         String name=req.getParameter("name");
         String contact=req.getParameter("contact");
         long n_contact=0;
@@ -23,12 +23,12 @@ public class FirServlet extends HttpServlet {
 
         req.setAttribute("message","Save Success");
         req.setAttribute("name",name);
-        req.setAttribute("contact",contact);
+        req.setAttribute("n_contact",n_contact);
         req.setAttribute("location",location);
         req.setAttribute("details",details);
 
 
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("");
+        RequestDispatcher requestDispatcher=req.getRequestDispatcher("firSuccess.jsp");
         requestDispatcher.forward(req,resp);
 
     }

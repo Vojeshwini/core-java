@@ -33,6 +33,7 @@
       </div>
     </div>
 
+
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Contact</label>
         <div class="d-flex justify-content-center">
@@ -41,9 +42,9 @@
       </div>
 
       <div class="mb-3">
-        <label for="ageDropdown" class="form-label">Age</label>
+        <label for="age" class="form-label">Age</label>
         <div class="d-flex justify-content-center">
-          <select class="form-select" id="ageDropdown" name="age" style="width: 500px;">
+          <select class="form-select" id="age" name="age" style="width: 500px;">
             <option selected disabled>Select age group</option>
             <option value="below18">Below 18</option>
             <option value="above18">Above 18</option>
