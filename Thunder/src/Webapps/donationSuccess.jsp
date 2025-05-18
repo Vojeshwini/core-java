@@ -25,8 +25,8 @@
     <h1>Thank You!</h1>
     <h2>${message}</h2>
     <p><strong>Name:</strong>${name}</p>
-    <p><strong>Contact:</strong>${l_contact}</p>
-    <p><strong>Amount:</strong>${l_amount}</p>
+    <p><strong>Contact:</strong>${contact}</p>
+    <p><strong>Amount:</strong>${amount}</p>
 </div>
 
 
