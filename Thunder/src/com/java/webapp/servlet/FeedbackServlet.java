@@ -25,7 +25,7 @@ public class FeedbackServlet extends HttpServlet {
 
         System.out.println("forwarding the feedback to jsp");
 
-        req.setAttribute("message","Save Success");
+        req.setAttribute("heading","Save Success");
         req.setAttribute("name",name);
         req.setAttribute("n_contact",n_contact);
         req.setAttribute("message",message);

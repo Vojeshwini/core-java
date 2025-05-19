@@ -21,10 +21,7 @@ public class License extends HttpServlet {
         }
 
         String age=req.getParameter("age");
-        double n_age=0;
-        if(age!=null){
-            n_age=Double.parseDouble(age);
-        }
+
         String type=req.getParameter("type");
 
         System.out.println("forwording to jsp");
@@ -32,10 +29,10 @@ public class License extends HttpServlet {
 
 
 
-        RequestDispatcher requestDispatcher=req.getRequestDispatcher("licenseSuccess.jsp");
+        RequestDispatcher requestDispatcher=req.getRequestDispatcher("Licensesuccess.jsp");
         req.setAttribute("message","Save Success");
         req.setAttribute("name",name);
-        req.setAttribute("contact",contact);
+        req.setAttribute("n_contact",n_contact);
         req.setAttribute("age",age);
         req.setAttribute("type",type);
         requestDispatcher.forward(req,resp);

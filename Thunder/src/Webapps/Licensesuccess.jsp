@@ -25,8 +25,8 @@
     <h1>Thank You!</h1>
     <h2>${message}</h2>
     <p><strong>Name:</strong>${name}</p>
-    <p><strong>Conatact:</strong>${n_contact}</p>
-    <p><strong>Age:</strong>${n_age}</p>
+    <p><strong>Contact:</strong>${n_contact}</p>
+    <p><strong>Age:</strong>${age}</p>
     <p><strong>License Type:</strong>${type}</p>
 </div>
 

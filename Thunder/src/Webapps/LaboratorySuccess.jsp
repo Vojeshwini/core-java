@@ -26,8 +26,9 @@
     <h2>${message}</h2>
     <p><strong>Name:</strong>${name}</p>
     <p><strong>Semester:</strong>${semester}</p>
-    <p><strong>Contact:</strong>${contact}</p>
     <p><strong>lab Name:</strong>${lab}</p>
+    <p><strong>Details:</strong>${details}</p>
+
 </div>
 
 

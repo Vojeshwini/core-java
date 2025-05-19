@@ -49,7 +49,7 @@
         <div class="mb-3">
             <label for="exampleInputPassword3" class="form-label">Lab Name</label>
             <div class="d-flex justify-content-center">
-                <input type="text" name="lab" placeholder="LabName" class="form-control" id="exampleInputPassword3" style="width: 500px;" name="type">
+                <input type="text" name="lab" placeholder="LabName" class="form-control" id="exampleInputPassword3" style="width: 500px;" >
             </div>
         </div>
 
@@ -58,7 +58,7 @@
         <div class="mb-3">
             <label for="exampleInputPassword4" class="form-label">Details</label>
             <div class="d-flex justify-content-center">
-                <input type="text" name="details" placeholder="Details" class="form-control" id="exampleInputPassword4" style="width: 500px;" name="type">
+                <input type="text" name="details" placeholder="Details" class="form-control" id="exampleInputPassword4" style="width: 500px;">
             </div>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>

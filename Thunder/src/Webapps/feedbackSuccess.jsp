@@ -22,8 +22,8 @@
     </div>
 </nav>
 <div align="center">
-    <h1>Thank You!</h1>
-    <h2>${message}</h2>
+    <h1>Thank You!!! </h1>
+    <h2>${heading}</h2>
     <p><strong>Name:</strong>${name}</p>
     <p><strong>Contact:</strong>${n_contact}</p>
     <p><strong>Message:</strong>${message}</p>
