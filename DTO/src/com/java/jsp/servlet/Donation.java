@@ -1,6 +1,6 @@
 package com.java.jsp.servlet;
 
-import com.java.jsp.dto.donationDto;
+import com.java.jsp.dto.DonationDto;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -27,7 +27,7 @@ public class Donation extends HttpServlet {
             l_amount=Long.parseLong(amount);
         }
 
-        donationDto donationDto=new donationDto();
+        DonationDto donationDto=new DonationDto();
         donationDto.setName(name);
         donationDto.setL_contact(l_contact);
         donationDto.setL_amount(l_amount);

@@ -1,6 +1,6 @@
 package com.java.jsp.dto;
 
-public class donationDto {
+public class DonationDto {
     String name;
     long l_contact;
     long l_amount;
