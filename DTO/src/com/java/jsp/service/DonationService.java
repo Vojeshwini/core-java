@@ -1,6 +1,11 @@
 package com.java.jsp.service;
-import com.java.jsp.dto;
+
+
+import com.java.jsp.dto.DonationDto;
 
 public interface DonationService {
-    boolean save(donationDto donationDto)
+
+    boolean save(DonationDto donationDto);
+
+
 }
