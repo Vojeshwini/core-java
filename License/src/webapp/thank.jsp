@@ -5,7 +5,7 @@
     <title>License</title>
 </head>
 <body>
-<h1>THANK YOU<h1>
+<h1>THANK YOU.<br>Your Deatils SAVED SUCCESSFULLY<h1>
 
 
 </body>
