@@ -35,7 +35,7 @@
 <form action="search" method="get">
     <div align="center">
         <div class="mb-3">
-            <label for="exampleInputEmail11" class="form-label" style="color:white">Search by ID </label>
+            <label for="exampleInputEmail11" class="form-label" style="color:white">Search by ID  </label>
             <div class="d-flex justify-content-center">
                 <input type="text" placeholder="Enter ID" class="form-control" id="exampleInputEmail11" style="width: 500px;" name="id">
             </div>
