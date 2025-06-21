@@ -88,7 +88,7 @@
             <div class="mb-3">
                 <label for="exampleInputEmail3" class="form-label" style="color:white" style="color:white">Email</label>
                 <div class="d-flex justify-content-center">
-                    <input type="email" placeholder="Enter team leader e-mail" class="form-control" id="exampleInputEmail6" style="width: 500px;" name="email" required value="${dto.email}">
+                    <input type="email" placeholder="Enter team leader email" class="form-control" id="exampleInputEmail6" style="width: 500px;" name="email" required value="${dto.email}">
                 </div>
             </div>
 
