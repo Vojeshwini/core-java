@@ -12,7 +12,7 @@ import java.util.Optional;
 public class HackathonRepoImpl implements HackathonRepo {
     public boolean persist(HackathonDto hackathonDto) {
 
-        System.out.println("runing the persist in the HackathonImpl");
+        System.out.println("running the persist in the HackathonImpl");
         if (hackathonDto != null) {
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
